@@ -242,6 +242,18 @@ AI was used as a **thinking assistant**, not a solution generator.
 
 Answers to these would significantly improve accuracy.
 
+**Sample Images Of Project:**
+
+<img width="1918" height="1088" alt="Screenshot 2026-01-03 014437" src="https://github.com/user-attachments/assets/874b79fb-e19e-429f-bb23-ac223a9c47cc" />
+
+<img width="1909" height="1000" alt="Screenshot 2026-01-03 014519" src="https://github.com/user-attachments/assets/297e0c4c-7fc4-4115-8864-777279ee9850" />
+<img width="1913" height="1089" alt="Screenshot 2026-01-03 014536" src="https://github.com/user-attachments/assets/27fd4264-03c4-4c91-a29e-97db2efbbe97" />
+<img width="1868" height="1029" alt="Screenshot 2026-01-03 014620" src="https://github.com/user-attachments/assets/049e4633-034f-4e13-9ecd-69fa4869fe76" />
+<img width="1913" height="1089" alt="Screenshot 2026-01-03 014536" src="https://github.com/user-attachments/assets/27fd4264-03c4-4c91-a29e-97db2efbbe97" />
+<img width="1878" height="691" alt="Screenshot 2026-01-03 014558" src="https://github.com/user-attachments/assets/36208dc9-ef2f-404b-8dcd-cb765b8fce15" />
+
+
+<img width="1899" height="1068" alt="Screenshot 2026-01-03 014649" src="https://github.com/user-attachments/assets/92aa3e47-6326-490b-ab8b-250943302bf6" />
 
 # 🔧 Technical Design & System Architecture (Added Section)
 
