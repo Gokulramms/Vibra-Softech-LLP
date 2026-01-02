@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced Resource Scheduling & Capacity Analysis System for Media Production">
+    <title>Resource Scheduling & Capacity Analysis Dashboard</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+
+<body>
+    <!-- Theme Toggle -->
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <div class="container">
+        <!-- Hero Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="header-title">
+                    <span class="gradient-text">Resource Scheduling</span>
+                    <span class="gradient-text-alt">& Capacity Analysis</span>
+                </h1>
+                <p class="header-subtitle">Advanced Workforce Optimization for Media Production</p>
+                <div class="header-badges">
+                    <span class="badge badge-info">AI-Powered</span>
+                    <span class="badge badge-success">Real-time Analytics</span>
+                    <span class="badge badge-warning">Production-Ready</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Control Panel -->
+        <section class="control-panel glass-card">
+            <h2 class="section-title">
+                <span class="icon">⚙️</span>
+                Scenario Configuration
+            </h2>
+
+            <div class="control-grid">
+                <div class="control-group">
+                    <label for="scenario">
+                        <span class="icon-sm">📊</span>
+                        Scenario Type
+                    </label>
+                    <select id="scenario" class="input-field">
+                        <option value="balanced">Balanced Staffing (100/100)</option>
+                        <option value="understaffed">Understaffed (80/100)</option>
+                        <option value="overstaffed">Overstaffed (120/100)</option>
+                        <option value="peak_season">Peak Season (100/150)</option>
+                        <option value="low_season">Low Season (100/60)</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="numEmployees">
+                        <span class="icon-sm">👥</span>
+                        Number of Employees
+                    </label>
+                    <input type="number" id="numEmployees" class="input-field" value="100" min="50" max="200">
+                </div>
+
+                <div class="control-group">
+                    <label for="numProjects">
+                        <span class="icon-sm">📁</span>
+                        Number of Projects
+                    </label>
+                    <input type="number" id="numProjects" class="input-field" value="100" min="50" max="200">
+                </div>
+
+                <div class="control-group">
+                    <label for="strategy">
+                        <span class="icon-sm">🧠</span>
+                        Algorithm Strategy
+                    </label>
+                    <select id="strategy" class="input-field">
+                        <option value="greedy">Greedy Algorithm (Fast)</option>
+                        <option value="optimized">Optimized Algorithm (Better)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="control-actions">
+                <button id="generateBtn" class="btn btn-primary btn-large">
+                    <span class="btn-icon">🚀</span>
+                    Generate & Analyze Schedule
+                </button>
+                <button id="compareBtn" class="btn btn-secondary btn-large" style="display: none;">
+                    <span class="btn-icon">📊</span>
+                    Compare Scenarios
+                </button>
+                <button id="exportBtn" class="btn btn-outline btn-large" style="display: none;">
+                    <span class="btn-icon">📥</span>
+                    Export Report
+                </button>
+            </div>
+
+            <div id="loadingIndicator" class="loading-container hidden">
+                <div class="loading-spinner"></div>
+                <p class="loading-text">Generating schedule and analyzing capacity...</p>
+                <div class="loading-progress">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill" style="width: 0%"></div>
+                    </div>
+                    <span id="progressText" class="progress-text">0%</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Metrics Dashboard -->
+        <section id="statsSection" class="stats-grid hidden">
+            <div class="stat-card glass-card stat-card-primary">
+                <div class="stat-icon">👥</div>
+                <div class="stat-content">
+                    <div class="stat-label">Total Employees</div>
+                    <div class="stat-value" id="statTotalEmployees" data-target="0">0</div>
+                    <div class="stat-subtitle">Workforce size</div>
+                </div>
+            </div>
+
+            <div class="stat-card glass-card stat-card-success">
+                <div class="stat-icon">✅</div>
+                <div class="stat-content">
+                    <div class="stat-label">Active Employees</div>
+                    <div class="stat-value" id="statActiveEmployees" data-target="0">0</div>
+                    <div class="stat-subtitle">With assignments</div>
+                </div>
+            </div>
+
+            <div class="stat-card glass-card stat-card-info">
+                <div class="stat-icon">📈</div>
+                <div class="stat-content">
+                    <div class="stat-label">Avg Utilization</div>
+                    <div class="stat-value" id="statUtilization" data-target="0">0%</div>
+                    <div class="stat-subtitle">Workforce efficiency</div>
+                </div>
+            </div>
+
+            <div class="stat-card glass-card stat-card-warning">
+                <div class="stat-icon">💰</div>
+                <div class="stat-content">
+                    <div class="stat-label">Total Cost</div>
+                    <div class="stat-value" id="statTotalCost" data-target="0">0</div>
+                    <div class="stat-subtitle">Labor units</div>
+                </div>
+            </div>
+
+            <div class="stat-card glass-card stat-card-error">
+                <div class="stat-icon">⏰</div>
+                <div class="stat-content">
+                    <div class="stat-label">Overtime Cost</div>
+                    <div class="stat-value" id="statOvertimePct" data-target="0">0%</div>
+                    <div class="stat-subtitle">Of total cost</div>
+                </div>
+            </div>
+
+            <div class="stat-card glass-card stat-card-purple">
+                <div class="stat-icon">📋</div>
+                <div class="stat-content">
+                    <div class="stat-label">Projects Scheduled</div>
+                    <div class="stat-value" id="statProjectsScheduled" data-target="0">0</div>
+                    <div class="stat-subtitle">Fully staffed</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workforce Recommendation -->
+        <section id="recommendationSection" class="recommendation-card glass-card hidden">
+            <div class="recommendation-header">
+                <span class="icon-large">💡</span>
+                <h3>Workforce Sizing Recommendation</h3>
+            </div>
+            <div class="recommendation-content">
+                <div class="recommendation-value">
+                    <span class="label">Recommended Headcount:</span>
+                    <span class="value gradient-text" id="recommendedHeadcount">100</span>
+                </div>
+                <p class="recommendation-reasoning" id="recommendationReasoning">Analyzing workforce requirements...</p>
+                <div class="recommendation-footer">
+                    <span class="badge" id="confidenceLevel">High Confidence</span>
+                    <span class="cost-impact" id="costImpact"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Gantt Chart -->
+        <section id="ganttSection" class="chart-section glass-card hidden">
+            <div class="section-header">
+                <h3>
+                    <span class="icon">📅</span>
+                    Schedule Timeline (Gantt Chart)
+                </h3>
+                <div class="section-controls">
+                    <button class="btn btn-sm btn-outline" id="ganttZoomIn">
+                        <span>🔍+</span>
+                    </button>
+                    <button class="btn btn-sm btn-outline" id="ganttZoomOut">
+                        <span>🔍-</span>
+                    </button>
+                    <button class="btn btn-sm btn-outline" id="ganttReset">
+                        <span>↺</span>
+                    </button>
+                </div>
+            </div>
+            <div id="ganttChart" class="gantt-container"></div>
+        </section>
+
+        <!-- Analytics Charts -->
+        <section id="chartsSection" class="charts-section hidden">
+            <div class="chart-card glass-card">
+                <h3 class="chart-title">
+                    <span class="icon">💵</span>
+                    Cost Breakdown Analysis
+                </h3>
+                <div class="chart-container">
+                    <canvas id="costChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-card glass-card">
+                <h3 class="chart-title">
+                    <span class="icon">📊</span>
+                    Utilization Distribution
+                </h3>
+                <div class="chart-container">
+                    <canvas id="utilizationChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-card glass-card">
+                <h3 class="chart-title">
+                    <span class="icon">🏆</span>
+                    Top Utilized Employees
+                </h3>
+                <div class="chart-container">
+                    <canvas id="topEmployeesChart"></canvas>
+                </div>
+            </div>
+
+            <div class="chart-card glass-card">
+                <h3 class="chart-title">
+                    <span class="icon">🎯</span>
+                    Skill Demand Analysis
+                </h3>
+                <div class="chart-container">
+                    <canvas id="skillDemandChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Employee Details Table -->
+        <section id="employeeTableSection" class="table-card glass-card hidden">
+            <div class="section-header">
+                <h3>
+                    <span class="icon">👥</span>
+                    Employee Utilization Details
+                </h3>
+                <div class="section-controls">
+                    <input type="text" id="employeeSearch" class="input-field input-sm"
+                        placeholder="🔍 Search employees...">
+                    <select id="employeeFilter" class="input-field input-sm">
+                        <option value="all">All Employees</option>
+                        <option value="active">Active Only</option>
+                        <option value="idle">Idle Only</option>
+                        <option value="overtime">With Overtime</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table-container">
+                <table id="employeeTable" class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Employee</th>
+                            <th>Skills</th>
+                            <th>Total Hours</th>
+                            <th>Utilization</th>
+                            <th>Overtime %</th>
+                            <th>Assignments</th>
+                            <th>Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employeeTableBody">
+                        <!-- Populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- System Recommendations -->
+        <section id="recommendationsSection" class="recommendations-card glass-card hidden">
+            <h3 class="section-title">
+                <span class="icon">💡</span>
+                System Recommendations
+            </h3>
+            <div id="recommendationsList" class="recommendations-list">
+                <!-- Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ for efficient resource management | Powered by Advanced AI Algorithms</p>
+            <p class="footer-links">
+                <a href="#" onclick="showAbout(); return false;">About</a> •
+                <a href="#" onclick="showHelp(); return false;">Help</a> •
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Modal for Scenario Comparison -->
+    <div id="comparisonModal" class="modal hidden">
+        <div class="modal-content glass-card">
+            <div class="modal-header">
+                <h3>Scenario Comparison</h3>
+                <button class="modal-close" onclick="closeComparisonModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="comparisonContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

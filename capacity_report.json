@@ -1,0 +1,970 @@
+{
+  "summary": {
+    "analysis_period_days": 365,
+    "total_employees": 80,
+    "active_employees": 80,
+    "idle_employees": 0,
+    "average_utilization": 0.41326722571715657,
+    "total_cost": 1112.958580311611,
+    "overtime_cost_percentage": 57.45534072900904
+  },
+  "team_metrics": {
+    "total_hours_worked": 965.3922392752778,
+    "regular_hours": 473.50443582083335,
+    "overtime_hours": 491.88780345444445,
+    "utilization_std_dev": 0.06718364143392944,
+    "average_cost_per_employee": 13.911982253895138
+  },
+  "cost_analysis": {
+    "total_cost": 1112.958580311611,
+    "regular_cost": 473.50443582083335,
+    "overtime_cost": 639.4541444907778,
+    "overtime_percentage": 57.45534072900904,
+    "cost_per_project": 79.49704145082936,
+    "cost_per_hour": 1.152856357274129
+  },
+  "workforce_sizing": {
+    "current_headcount": 80,
+    "recommended_headcount": 80,
+    "reasoning": "High overtime (51.0%) detected. Hiring 0 additional employees would reduce overtime and potentially lower costs.",
+    "expected_cost_impact": 0.0,
+    "expected_overtime_reduction": 0,
+    "confidence_level": "high"
+  },
+  "top_utilized_employees": [
+    {
+      "name": "Jules Green",
+      "utilization_rate": 0.5886303337804414,
+      "total_hours": 17.18800574638889,
+      "overtime_percentage": 44.35949400963119
+    },
+    {
+      "name": "Lane Lee",
+      "utilization_rate": 0.5711417556506849,
+      "total_hours": 16.677339265,
+      "overtime_percentage": 45.71779861458881
+    },
+    {
+      "name": "Sam Morgan",
+      "utilization_rate": 0.5701302600266361,
+      "total_hours": 16.647803592777777,
+      "overtime_percentage": 75.3758211310058
+    },
+    {
+      "name": "Angel Lewis",
+      "utilization_rate": 0.5532672767979452,
+      "total_hours": 16.1554044825,
+      "overtime_percentage": 57.66771178360959
+    },
+    {
+      "name": "Justice Cox",
+      "utilization_rate": 0.551880342085236,
+      "total_hours": 16.11490598888889,
+      "overtime_percentage": 72.89544169912932
+    }
+  ],
+  "underutilized_employees": [
+    {
+      "name": "Hunter Martinez",
+      "utilization_rate": 0.273947543150685,
+      "total_hours": 7.999268260000001,
+      "num_assignments": 3
+    },
+    {
+      "name": "Zion Allen",
+      "utilization_rate": 0.3115168946156773,
+      "total_hours": 9.096293322777777,
+      "num_assignments": 3
+    },
+    {
+      "name": "Cody Ruiz",
+      "utilization_rate": 0.32403034042998474,
+      "total_hours": 9.461685940555554,
+      "num_assignments": 2
+    },
+    {
+      "name": "Val Murphy",
+      "utilization_rate": 0.3273348555175038,
+      "total_hours": 9.55817778111111,
+      "num_assignments": 2
+    },
+    {
+      "name": "Angel Lewis",
+      "utilization_rate": 0.3280613847983257,
+      "total_hours": 9.57939243611111,
+      "num_assignments": 2
+    },
+    {
+      "name": "Teagan Wilson",
+      "utilization_rate": 0.3280613847983257,
+      "total_hours": 9.57939243611111,
+      "num_assignments": 2
+    },
+    {
+      "name": "London Hernandez",
+      "utilization_rate": 0.32942117519025876,
+      "total_hours": 9.619098315555556,
+      "num_assignments": 2
+    },
+    {
+      "name": "Blair Kelly",
+      "utilization_rate": 0.3329946409436834,
+      "total_hours": 9.723443515555555,
+      "num_assignments": 2
+    },
+    {
+      "name": "Kai Diaz",
+      "utilization_rate": 0.3353209697773973,
+      "total_hours": 9.7913723175,
+      "num_assignments": 3
+    },
+    {
+      "name": "Eden Brooks",
+      "utilization_rate": 0.3376920263508372,
+      "total_hours": 9.860607169444446,
+      "num_assignments": 3
+    },
+    {
+      "name": "Ellis Adams",
+      "utilization_rate": 0.34387025865677323,
+      "total_hours": 10.041011552777778,
+      "num_assignments": 2
+    },
+    {
+      "name": "Harper James",
+      "utilization_rate": 0.34837597034817347,
+      "total_hours": 10.172578334166666,
+      "num_assignments": 2
+    },
+    {
+      "name": "Max Chavez",
+      "utilization_rate": 0.3516399350361492,
+      "total_hours": 10.267886103055556,
+      "num_assignments": 2
+    },
+    {
+      "name": "Spencer Cooper",
+      "utilization_rate": 0.35376372790144595,
+      "total_hours": 10.329900854722222,
+      "num_assignments": 3
+    },
+    {
+      "name": "Brooklyn Peterson",
+      "utilization_rate": 0.3560566451103501,
+      "total_hours": 10.396854037222223,
+      "num_assignments": 2
+    },
+    {
+      "name": "Sage Martin",
+      "utilization_rate": 0.35687604814497714,
+      "total_hours": 10.420780605833333,
+      "num_assignments": 2
+    },
+    {
+      "name": "Quinn Robinson",
+      "utilization_rate": 0.3584522217370624,
+      "total_hours": 10.466804874722223,
+      "num_assignments": 2
+    },
+    {
+      "name": "Morgan Lopez",
+      "utilization_rate": 0.3636400062785389,
+      "total_hours": 10.618288183333334,
+      "num_assignments": 2
+    },
+    {
+      "name": "Briar Phillips",
+      "utilization_rate": 0.3636400062785389,
+      "total_hours": 10.618288183333334,
+      "num_assignments": 2
+    },
+    {
+      "name": "London Wright",
+      "utilization_rate": 0.36616183466514457,
+      "total_hours": 10.691925572222221,
+      "num_assignments": 3
+    },
+    {
+      "name": "Robin Gutierrez",
+      "utilization_rate": 0.36694343262937595,
+      "total_hours": 10.714748232777778,
+      "num_assignments": 2
+    },
+    {
+      "name": "Ellis Chavez",
+      "utilization_rate": 0.36867202218417044,
+      "total_hours": 10.765223047777777,
+      "num_assignments": 3
+    },
+    {
+      "name": "Gale Collins",
+      "utilization_rate": 0.3697640696822679,
+      "total_hours": 10.797110834722222,
+      "num_assignments": 2
+    },
+    {
+      "name": "Sloan Ramirez",
+      "utilization_rate": 0.36997117968036536,
+      "total_hours": 10.803158446666668,
+      "num_assignments": 2
+    },
+    {
+      "name": "Jordan Mendoza",
+      "utilization_rate": 0.3728623805175038,
+      "total_hours": 10.887581511111112,
+      "num_assignments": 3
+    },
+    {
+      "name": "Riley James",
+      "utilization_rate": 0.37290130520357684,
+      "total_hours": 10.888718111944444,
+      "num_assignments": 2
+    },
+    {
+      "name": "Bellamy Alvarez",
+      "utilization_rate": 0.3751861375856164,
+      "total_hours": 10.9554352175,
+      "num_assignments": 2
+    },
+    {
+      "name": "Chris Bennett",
+      "utilization_rate": 0.3783417600361491,
+      "total_hours": 11.047579393055555,
+      "num_assignments": 3
+    },
+    {
+      "name": "Elliot Patel",
+      "utilization_rate": 0.3806448906297564,
+      "total_hours": 11.114830806388888,
+      "num_assignments": 3
+    },
+    {
+      "name": "Gale Miller",
+      "utilization_rate": 0.3811620205859969,
+      "total_hours": 11.12993100111111,
+      "num_assignments": 3
+    },
+    {
+      "name": "Emerson Martin",
+      "utilization_rate": 0.3822854200722983,
+      "total_hours": 11.162734266111112,
+      "num_assignments": 2
+    },
+    {
+      "name": "Arden Edwards",
+      "utilization_rate": 0.3861981986777017,
+      "total_hours": 11.27698740138889,
+      "num_assignments": 3
+    },
+    {
+      "name": "Sam Roberts",
+      "utilization_rate": 0.3882330388603501,
+      "total_hours": 11.336404734722223,
+      "num_assignments": 3
+    },
+    {
+      "name": "Alex Martinez",
+      "utilization_rate": 0.38967239948630134,
+      "total_hours": 11.378434064999999,
+      "num_assignments": 2
+    },
+    {
+      "name": "Haven Lee",
+      "utilization_rate": 0.39073275505136995,
+      "total_hours": 11.4093964475,
+      "num_assignments": 2
+    },
+    {
+      "name": "Lane Kelly",
+      "utilization_rate": 0.39073275505136995,
+      "total_hours": 11.4093964475,
+      "num_assignments": 2
+    },
+    {
+      "name": "Quinn Perez",
+      "utilization_rate": 0.3947216367865296,
+      "total_hours": 11.525871794166665,
+      "num_assignments": 2
+    },
+    {
+      "name": "Rory Ramos",
+      "utilization_rate": 0.39677418066971076,
+      "total_hours": 11.585806075555555,
+      "num_assignments": 3
+    },
+    {
+      "name": "Robin Peterson",
+      "utilization_rate": 0.39816703116438357,
+      "total_hours": 11.62647731,
+      "num_assignments": 2
+    },
+    {
+      "name": "River Lee",
+      "utilization_rate": 0.40066656681887364,
+      "total_hours": 11.69946375111111,
+      "num_assignments": 2
+    },
+    {
+      "name": "Indigo Scott",
+      "utilization_rate": 0.40220193085045663,
+      "total_hours": 11.744296380833333,
+      "num_assignments": 3
+    },
+    {
+      "name": "Devin Wright",
+      "utilization_rate": 0.4031740043283867,
+      "total_hours": 11.77268092638889,
+      "num_assignments": 3
+    },
+    {
+      "name": "Cody Anderson",
+      "utilization_rate": 0.4073930285292998,
+      "total_hours": 11.895876433055555,
+      "num_assignments": 2
+    },
+    {
+      "name": "Rowan Gonzalez",
+      "utilization_rate": 0.4073930285292998,
+      "total_hours": 11.895876433055555,
+      "num_assignments": 2
+    },
+    {
+      "name": "Corey Gonzalez",
+      "utilization_rate": 0.40912555141742774,
+      "total_hours": 11.94646610138889,
+      "num_assignments": 3
+    },
+    {
+      "name": "Arden Sanders",
+      "utilization_rate": 0.411455041771309,
+      "total_hours": 12.014487219722222,
+      "num_assignments": 2
+    },
+    {
+      "name": "Bellamy Hernandez",
+      "utilization_rate": 0.411970618597793,
+      "total_hours": 12.029542063055555,
+      "num_assignments": 3
+    },
+    {
+      "name": "Carson Adams",
+      "utilization_rate": 0.412402334313166,
+      "total_hours": 12.042148161944445,
+      "num_assignments": 3
+    },
+    {
+      "name": "Flynn Castillo",
+      "utilization_rate": 0.41300109453006095,
+      "total_hours": 12.059631960277779,
+      "num_assignments": 3
+    },
+    {
+      "name": "Drew Robinson",
+      "utilization_rate": 0.4172604324296043,
+      "total_hours": 12.184004626944445,
+      "num_assignments": 3
+    },
+    {
+      "name": "Evan Cooper",
+      "utilization_rate": 0.42051202029109586,
+      "total_hours": 12.278950992499999,
+      "num_assignments": 3
+    },
+    {
+      "name": "Blake Ramos",
+      "utilization_rate": 0.4251190230308219,
+      "total_hours": 12.4134754725,
+      "num_assignments": 3
+    },
+    {
+      "name": "Indiana Stewart",
+      "utilization_rate": 0.4262004031487823,
+      "total_hours": 12.445051771944446,
+      "num_assignments": 3
+    },
+    {
+      "name": "Blake Walker",
+      "utilization_rate": 0.43039199420662105,
+      "total_hours": 12.567446230833333,
+      "num_assignments": 2
+    },
+    {
+      "name": "Micah Bennett",
+      "utilization_rate": 0.43132139298896494,
+      "total_hours": 12.594584675277776,
+      "num_assignments": 2
+    },
+    {
+      "name": "Jaden Wilson",
+      "utilization_rate": 0.4333107751997717,
+      "total_hours": 12.652674635833334,
+      "num_assignments": 3
+    },
+    {
+      "name": "Emery Sanchez",
+      "utilization_rate": 0.43434735301560123,
+      "total_hours": 12.682942708055556,
+      "num_assignments": 3
+    },
+    {
+      "name": "Aspen Taylor",
+      "utilization_rate": 0.44262684645167427,
+      "total_hours": 12.92470391638889,
+      "num_assignments": 4
+    },
+    {
+      "name": "Bailey Moore",
+      "utilization_rate": 0.4448842545281583,
+      "total_hours": 12.990620232222222,
+      "num_assignments": 2
+    },
+    {
+      "name": "Chris Reyes",
+      "utilization_rate": 0.4448842545281583,
+      "total_hours": 12.990620232222222,
+      "num_assignments": 2
+    },
+    {
+      "name": "Aubrey Perez",
+      "utilization_rate": 0.4488625043949772,
+      "total_hours": 13.106785128333334,
+      "num_assignments": 2
+    },
+    {
+      "name": "Bailey Collins",
+      "utilization_rate": 0.467164750304414,
+      "total_hours": 13.64121070888889,
+      "num_assignments": 3
+    },
+    {
+      "name": "Ellis Morgan",
+      "utilization_rate": 0.47592154857305935,
+      "total_hours": 13.896909218333334,
+      "num_assignments": 2
+    },
+    {
+      "name": "Hollis Davis",
+      "utilization_rate": 0.48167173075532727,
+      "total_hours": 14.064814538055556,
+      "num_assignments": 4
+    },
+    {
+      "name": "Emerson Campbell",
+      "utilization_rate": 0.481766148487443,
+      "total_hours": 14.067571535833334,
+      "num_assignments": 3
+    },
+    {
+      "name": "Dakota Lopez",
+      "utilization_rate": 0.48616941605783864,
+      "total_hours": 14.196146948888888,
+      "num_assignments": 2
+    },
+    {
+      "name": "Ivory Mendoza",
+      "utilization_rate": 0.48616941605783864,
+      "total_hours": 14.196146948888888,
+      "num_assignments": 2
+    },
+    {
+      "name": "Aspen Ortiz",
+      "utilization_rate": 0.4865049869006849,
+      "total_hours": 14.2059456175,
+      "num_assignments": 3
+    },
+    {
+      "name": "Jules Flores",
+      "utilization_rate": 0.4873583755041857,
+      "total_hours": 14.230864564722221,
+      "num_assignments": 2
+    },
+    {
+      "name": "Greer Howard",
+      "utilization_rate": 0.4958110868721461,
+      "total_hours": 14.477683736666666,
+      "num_assignments": 3
+    },
+    {
+      "name": "Charlie Richardson",
+      "utilization_rate": 0.5052819674847793,
+      "total_hours": 14.754233450555557,
+      "num_assignments": 2
+    },
+    {
+      "name": "Holland Chavez",
+      "utilization_rate": 0.5053511559741248,
+      "total_hours": 14.756253754444444,
+      "num_assignments": 3
+    },
+    {
+      "name": "Sam Ramirez",
+      "utilization_rate": 0.5060497907153729,
+      "total_hours": 14.77665388888889,
+      "num_assignments": 2
+    },
+    {
+      "name": "London Scott",
+      "utilization_rate": 0.5102858858447489,
+      "total_hours": 14.900347866666667,
+      "num_assignments": 2
+    },
+    {
+      "name": "August Sanchez",
+      "utilization_rate": 0.5274928913146879,
+      "total_hours": 15.402792426388888,
+      "num_assignments": 2
+    },
+    {
+      "name": "Justice Cox",
+      "utilization_rate": 0.551880342085236,
+      "total_hours": 16.11490598888889,
+      "num_assignments": 3
+    },
+    {
+      "name": "Angel Lewis",
+      "utilization_rate": 0.5532672767979452,
+      "total_hours": 16.1554044825,
+      "num_assignments": 3
+    },
+    {
+      "name": "Sam Morgan",
+      "utilization_rate": 0.5701302600266361,
+      "total_hours": 16.647803592777777,
+      "num_assignments": 3
+    },
+    {
+      "name": "Lane Lee",
+      "utilization_rate": 0.5711417556506849,
+      "total_hours": 16.677339265,
+      "num_assignments": 4
+    },
+    {
+      "name": "Jules Green",
+      "utilization_rate": 0.5886303337804414,
+      "total_hours": 17.18800574638889,
+      "num_assignments": 4
+    }
+  ],
+  "overworked_employees": [
+    {
+      "name": "August Sanchez",
+      "overtime_hours": 14.805584852777779,
+      "overtime_percentage": 96.12273179382757,
+      "total_cost": 19.844467882222226
+    },
+    {
+      "name": "London Scott",
+      "overtime_hours": 13.800695733333333,
+      "overtime_percentage": 92.61995664011745,
+      "total_cost": 19.040556586666668
+    },
+    {
+      "name": "Sam Ramirez",
+      "overtime_hours": 13.553307777777778,
+      "overtime_percentage": 91.72108841209992,
+      "total_cost": 18.84264622222222
+    },
+    {
+      "name": "Charlie Richardson",
+      "overtime_hours": 13.508466901111111,
+      "overtime_percentage": 91.55654847390574,
+      "total_cost": 18.80677352088889
+    },
+    {
+      "name": "Jules Flores",
+      "overtime_hours": 12.461729129444445,
+      "overtime_percentage": 87.56832076342434,
+      "total_cost": 17.969383303555556
+    },
+    {
+      "name": "Dakota Lopez",
+      "overtime_hours": 12.392293897777776,
+      "overtime_percentage": 87.29336165928954,
+      "total_cost": 17.91383511822222
+    },
+    {
+      "name": "Ivory Mendoza",
+      "overtime_hours": 12.392293897777776,
+      "overtime_percentage": 87.29336165928954,
+      "total_cost": 17.91383511822222
+    },
+    {
+      "name": "Ellis Morgan",
+      "overtime_hours": 11.793818436666667,
+      "overtime_percentage": 84.86648542762164,
+      "total_cost": 17.435054749333336
+    },
+    {
+      "name": "Aubrey Perez",
+      "overtime_hours": 10.213570256666667,
+      "overtime_percentage": 77.92582358421123,
+      "total_cost": 16.170856205333337
+    },
+    {
+      "name": "Bailey Moore",
+      "overtime_hours": 9.981240464444443,
+      "overtime_percentage": 76.8342102687811,
+      "total_cost": 15.984992371555554
+    },
+    {
+      "name": "Chris Reyes",
+      "overtime_hours": 9.981240464444443,
+      "overtime_percentage": 76.8342102687811,
+      "total_cost": 15.984992371555554
+    },
+    {
+      "name": "Sam Morgan",
+      "overtime_hours": 12.548418658333333,
+      "overtime_percentage": 75.3758211310058,
+      "total_cost": 20.412329190277777
+    },
+    {
+      "name": "Micah Bennett",
+      "overtime_hours": 9.189169350555554,
+      "overtime_percentage": 72.96127333673181,
+      "total_cost": 15.351335480444444
+    },
+    {
+      "name": "Justice Cox",
+      "overtime_hours": 11.7470319,
+      "overtime_percentage": 72.89544169912932,
+      "total_cost": 19.63901555888889
+    },
+    {
+      "name": "Blake Walker",
+      "overtime_hours": 9.134892461666668,
+      "overtime_percentage": 72.68694286715834,
+      "total_cost": 15.307913969333335
+    },
+    {
+      "name": "Angel Lewis",
+      "overtime_hours": 6.699698503888889,
+      "overtime_percentage": 69.93865789059089,
+      "total_cost": 11.589301987277778
+    },
+    {
+      "name": "Teagan Wilson",
+      "overtime_hours": 6.699698503888889,
+      "overtime_percentage": 69.93865789059089,
+      "total_cost": 11.589301987277778
+    },
+    {
+      "name": "Sage Martin",
+      "overtime_hours": 7.181072473333334,
+      "overtime_percentage": 68.91108012881033,
+      "total_cost": 12.575102347833333
+    },
+    {
+      "name": "Blair Kelly",
+      "overtime_hours": 6.699698503888889,
+      "overtime_percentage": 68.90252916233553,
+      "total_cost": 11.733353066722223
+    },
+    {
+      "name": "Arden Sanders",
+      "overtime_hours": 8.028974439444443,
+      "overtime_percentage": 66.82744167611737,
+      "total_cost": 14.423179551555554
+    },
+    {
+      "name": "Bellamy Alvarez",
+      "overtime_hours": 7.181072473333334,
+      "overtime_percentage": 65.54803465828932,
+      "total_cost": 13.1097569595
+    },
+    {
+      "name": "Cody Anderson",
+      "overtime_hours": 7.791752866111109,
+      "overtime_percentage": 65.49961165080572,
+      "total_cost": 14.233402292888886
+    },
+    {
+      "name": "Rowan Gonzalez",
+      "overtime_hours": 7.791752866111109,
+      "overtime_percentage": 65.49961165080572,
+      "total_cost": 14.233402292888886
+    },
+    {
+      "name": "Cody Ruiz",
+      "overtime_hours": 6.176183353888888,
+      "overtime_percentage": 65.27571716807846,
+      "total_cost": 11.314540946722222
+    },
+    {
+      "name": "Ellis Adams",
+      "overtime_hours": 6.421534367222222,
+      "overtime_percentage": 63.953062233513194,
+      "total_cost": 11.967471862944443
+    },
+    {
+      "name": "River Lee",
+      "overtime_hours": 7.398927502222222,
+      "overtime_percentage": 63.24159516729592,
+      "total_cost": 13.919142001777777
+    },
+    {
+      "name": "Robin Gutierrez",
+      "overtime_hours": 6.699698503888889,
+      "overtime_percentage": 62.5278201441417,
+      "total_cost": 12.724657783944444
+    },
+    {
+      "name": "Robin Peterson",
+      "overtime_hours": 7.252954620000001,
+      "overtime_percentage": 62.383079815256615,
+      "total_cost": 13.802363696
+    },
+    {
+      "name": "Quinn Perez",
+      "overtime_hours": 7.051743588333332,
+      "overtime_percentage": 61.18186731785682,
+      "total_cost": 13.641394870666666
+    },
+    {
+      "name": "Haven Lee",
+      "overtime_hours": 6.818792895,
+      "overtime_percentage": 59.76471171263504,
+      "total_cost": 13.455034315999999
+    },
+    {
+      "name": "Lane Kelly",
+      "overtime_hours": 6.818792895,
+      "overtime_percentage": 59.76471171263504,
+      "total_cost": 13.455034315999999
+    },
+    {
+      "name": "Alex Martinez",
+      "overtime_hours": 6.756868129999997,
+      "overtime_percentage": 59.38311099225936,
+      "total_cost": 13.405494503999998
+    },
+    {
+      "name": "Riley James",
+      "overtime_hours": 6.421534367222222,
+      "overtime_percentage": 58.97419972859874,
+      "total_cost": 12.81517842211111
+    },
+    {
+      "name": "London Hernandez",
+      "overtime_hours": 5.577707892777779,
+      "overtime_percentage": 57.98576654277221,
+      "total_cost": 11.29241068338889
+    },
+    {
+      "name": "Angel Lewis",
+      "overtime_hours": 9.316452094444443,
+      "overtime_percentage": 57.66771178360959,
+      "total_cost": 18.95034011083333
+    },
+    {
+      "name": "Emerson Martin",
+      "overtime_hours": 6.325468532222224,
+      "overtime_percentage": 56.66594206605529,
+      "total_cost": 13.06037482577778
+    },
+    {
+      "name": "Aspen Ortiz",
+      "overtime_hours": 7.952804866666668,
+      "overtime_percentage": 55.98222801071249,
+      "total_cost": 16.5917870775
+    },
+    {
+      "name": "Emerson Campbell",
+      "overtime_hours": 7.702805415,
+      "overtime_percentage": 54.75575791727226,
+      "total_cost": 16.378413160333334
+    },
+    {
+      "name": "Quinn Robinson",
+      "overtime_hours": 5.577707892777779,
+      "overtime_percentage": 53.28949913118357,
+      "total_cost": 12.140117242555558
+    },
+    {
+      "name": "Val Murphy",
+      "overtime_hours": 5.005715381666667,
+      "overtime_percentage": 52.37102192803916,
+      "total_cost": 11.059892395611111
+    },
+    {
+      "name": "Morgan Lopez",
+      "overtime_hours": 5.511542795,
+      "overtime_percentage": 51.90613307756162,
+      "total_cost": 12.271751021833333
+    },
+    {
+      "name": "Briar Phillips",
+      "overtime_hours": 5.511542795,
+      "overtime_percentage": 51.90613307756162,
+      "total_cost": 12.271751021833333
+    },
+    {
+      "name": "Sloan Ramirez",
+      "overtime_hours": 5.606316893333334,
+      "overtime_percentage": 51.89516492802318,
+      "total_cost": 12.485053514666667
+    },
+    {
+      "name": "Gale Collins",
+      "overtime_hours": 5.594221669444446,
+      "overtime_percentage": 51.81220935006146,
+      "total_cost": 12.475377335555557
+    },
+    {
+      "name": "Holland Chavez",
+      "overtime_hours": 7.2014959872222235,
+      "overtime_percentage": 48.8030099445342,
+      "total_cost": 16.916702550611113
+    },
+    {
+      "name": "Brooklyn Peterson",
+      "overtime_hours": 4.793708074444444,
+      "overtime_percentage": 46.10729416112109,
+      "total_cost": 11.834966459555556
+    },
+    {
+      "name": "Greer Howard",
+      "overtime_hours": 6.644355951666666,
+      "overtime_percentage": 45.89377743374065,
+      "total_cost": 16.470990522166666
+    },
+    {
+      "name": "Lane Lee",
+      "overtime_hours": 7.624512379444445,
+      "overtime_percentage": 45.71779861458881,
+      "total_cost": 18.964692978833334
+    },
+    {
+      "name": "Elliot Patel",
+      "overtime_hours": 5.024117882777777,
+      "overtime_percentage": 45.201928578974645,
+      "total_cost": 12.622066171222222
+    },
+    {
+      "name": "Arden Edwards",
+      "overtime_hours": 5.005715381666667,
+      "overtime_percentage": 44.38876451214405,
+      "total_cost": 12.77870201588889
+    },
+    {
+      "name": "Jules Green",
+      "overtime_hours": 7.624512379444445,
+      "overtime_percentage": 44.35949400963119,
+      "total_cost": 19.475359460222222
+    },
+    {
+      "name": "Max Chavez",
+      "overtime_hours": 4.535772206111112,
+      "overtime_percentage": 44.174352545275504,
+      "total_cost": 11.62861776488889
+    },
+    {
+      "name": "Harper James",
+      "overtime_hours": 4.345156668333333,
+      "overtime_percentage": 42.71440853632205,
+      "total_cost": 11.476125334666666
+    },
+    {
+      "name": "Jaden Wilson",
+      "overtime_hours": 5.005715381666667,
+      "overtime_percentage": 39.56250773642832,
+      "total_cost": 14.154389250333335
+    },
+    {
+      "name": "Blake Ramos",
+      "overtime_hours": 4.838773661111112,
+      "overtime_percentage": 38.9800074268533,
+      "total_cost": 13.865107570833334
+    },
+    {
+      "name": "Emery Sanchez",
+      "overtime_hours": 4.933547759444446,
+      "overtime_percentage": 38.89907786393223,
+      "total_cost": 14.16300703588889
+    },
+    {
+      "name": "Indiana Stewart",
+      "overtime_hours": 4.838773661111112,
+      "overtime_percentage": 38.881105115363376,
+      "total_cost": 13.89668387027778
+    },
+    {
+      "name": "Corey Gonzalez",
+      "overtime_hours": 3.860823531666666,
+      "overtime_percentage": 32.31770382052822,
+      "total_cost": 13.104713160888888
+    },
+    {
+      "name": "Bailey Collins",
+      "overtime_hours": 4.398534184444445,
+      "overtime_percentage": 32.244455996697354,
+      "total_cost": 14.960770964222224
+    },
+    {
+      "name": "Carson Adams",
+      "overtime_hours": 3.651958667222223,
+      "overtime_percentage": 30.32647180644339,
+      "total_cost": 13.137735762111111
+    },
+    {
+      "name": "Devin Wright",
+      "overtime_hours": 3.5571845688888892,
+      "overtime_percentage": 30.215586331872217,
+      "total_cost": 12.839836297055557
+    },
+    {
+      "name": "Rory Ramos",
+      "overtime_hours": 3.432578123888888,
+      "overtime_percentage": 29.627443282786793,
+      "total_cost": 12.61557951272222
+    },
+    {
+      "name": "Drew Robinson",
+      "overtime_hours": 3.5571845688888892,
+      "overtime_percentage": 29.195528710013097,
+      "total_cost": 13.251159997611111
+    },
+    {
+      "name": "Bellamy Hernandez",
+      "overtime_hours": 3.432578123888888,
+      "overtime_percentage": 28.534570193081805,
+      "total_cost": 13.059315500222223
+    },
+    {
+      "name": "Indigo Scott",
+      "overtime_hours": 2.9442167899999987,
+      "overtime_percentage": 25.069333185468263,
+      "total_cost": 12.627561417833332
+    },
+    {
+      "name": "Evan Cooper",
+      "overtime_hours": 2.9442167899999987,
+      "overtime_percentage": 23.977755036226878,
+      "total_cost": 13.162216029499998
+    },
+    {
+      "name": "Flynn Castillo",
+      "overtime_hours": 2.7676349833333322,
+      "overtime_percentage": 22.949580820122996,
+      "total_cost": 12.889922455277778
+    }
+  ],
+  "overtime_vs_hiring": {
+    "current_scenario": {
+      "total_cost": 1112.958580311611,
+      "overtime_cost": 639.4541444907778,
+      "overtime_hours": 491.88780345444445
+    },
+    "hiring_scenario": {
+      "additional_employees": 1,
+      "hiring_cost": 2920.0,
+      "overtime_eliminated_hours": 491.88780345444445,
+      "overtime_savings": 147.56634103633337,
+      "net_cost_difference": 2772.433658963667,
+      "total_cost": 3885.392239275278
+    },
+    "recommendation": "overtime",
+    "breakeven_employees": 0.21899114537355405,
+    "cost_benefit_ratio": 0.050536418163127865
+  }
+}

@@ -1,0 +1,3820 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Cody Anderson",
+      "skills": [
+        "Producer",
+        "Colorist"
+      ],
+      "regular_hours_worked": 4.104123566944446,
+      "overtime_hours_worked": 7.791752866111109,
+      "assignments": [
+        {
+          "employee_id": 1,
+          "project_id": 29,
+          "time_slot": {
+            "start": "2026-07-14T10:00:00",
+            "end": "2026-07-14T16:30:43.412189"
+          }
+        },
+        {
+          "employee_id": 1,
+          "project_id": 31,
+          "time_slot": {
+            "start": "2026-12-09T07:00:00",
+            "end": "2026-12-09T12:23:01.742970"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 2,
+      "name": "Angel Lewis",
+      "skills": [
+        "Editor",
+        "Producer"
+      ],
+      "regular_hours_worked": 2.8796939322222217,
+      "overtime_hours_worked": 6.699698503888889,
+      "assignments": [
+        {
+          "employee_id": 2,
+          "project_id": 14,
+          "time_slot": {
+            "start": "2026-10-25T10:00:00",
+            "end": "2026-10-25T12:13:46.355463"
+          }
+        },
+        {
+          "employee_id": 2,
+          "project_id": 26,
+          "time_slot": {
+            "start": "2026-07-19T19:00:00",
+            "end": "2026-07-20T02:20:59.457307"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 3,
+      "name": "Elliot Patel",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 6.090712923611112,
+      "overtime_hours_worked": 5.024117882777777,
+      "assignments": [
+        {
+          "employee_id": 3,
+          "project_id": 29,
+          "time_slot": {
+            "start": "2026-07-14T10:00:00",
+            "end": "2026-07-14T16:30:43.412189"
+          }
+        },
+        {
+          "employee_id": 3,
+          "project_id": 50,
+          "time_slot": {
+            "start": "2026-05-18T15:00:00",
+            "end": "2026-05-18T17:14:29.004140"
+          }
+        },
+        {
+          "employee_id": 3,
+          "project_id": 45,
+          "time_slot": {
+            "start": "2026-10-19T15:00:00",
+            "end": "2026-10-19T17:21:40.974574"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 4,
+      "name": "Blake Ramos",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 7.574701811388889,
+      "overtime_hours_worked": 4.838773661111112,
+      "assignments": [
+        {
+          "employee_id": 4,
+          "project_id": 25,
+          "time_slot": {
+            "start": "2026-08-27T12:00:00",
+            "end": "2026-08-27T14:22:24.939349"
+          }
+        },
+        {
+          "employee_id": 4,
+          "project_id": 35,
+          "time_slot": {
+            "start": "2026-09-25T16:00:00",
+            "end": "2026-09-25T19:37:13.779762"
+          }
+        },
+        {
+          "employee_id": 4,
+          "project_id": 11,
+          "time_slot": {
+            "start": "2026-01-13T08:00:00",
+            "end": "2026-01-13T14:25:09.792590"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 5,
+      "name": "Morgan Lopez",
+      "skills": [
+        "Producer",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 5.106745388333333,
+      "overtime_hours_worked": 5.511542795,
+      "assignments": [
+        {
+          "employee_id": 5,
+          "project_id": 19,
+          "time_slot": {
+            "start": "2026-05-01T16:00:00",
+            "end": "2026-05-01T19:51:45.060429"
+          }
+        },
+        {
+          "employee_id": 5,
+          "project_id": 48,
+          "time_slot": {
+            "start": "2026-01-31T08:00:00",
+            "end": "2026-01-31T14:45:20.777031"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 6,
+      "name": "August Sanchez",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 0.5972075736111107,
+      "overtime_hours_worked": 14.805584852777779,
+      "assignments": [
+        {
+          "employee_id": 6,
+          "project_id": 6,
+          "time_slot": {
+            "start": "2026-10-11T10:00:00",
+            "end": "2026-10-11T17:35:25.930452"
+          }
+        },
+        {
+          "employee_id": 6,
+          "project_id": 1,
+          "time_slot": {
+            "start": "2026-06-01T09:00:00",
+            "end": "2026-06-01T16:48:44.122283"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 7,
+      "name": "Evan Cooper",
+      "skills": [
+        "Editor"
+      ],
+      "regular_hours_worked": 9.3347342025,
+      "overtime_hours_worked": 2.9442167899999987,
+      "assignments": [
+        {
+          "employee_id": 7,
+          "project_id": 32,
+          "time_slot": {
+            "start": "2026-06-09T07:00:00",
+            "end": "2026-06-09T12:28:19.590222"
+          }
+        },
+        {
+          "employee_id": 7,
+          "project_id": 38,
+          "time_slot": {
+            "start": "2026-10-12T18:00:00",
+            "end": "2026-10-12T21:26:30.997020"
+          }
+        },
+        {
+          "employee_id": 7,
+          "project_id": 41,
+          "time_slot": {
+            "start": "2026-04-10T10:00:00",
+            "end": "2026-04-10T13:21:53.636331"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 8,
+      "name": "Rory Ramos",
+      "skills": [
+        "Producer",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 8.153227951666667,
+      "overtime_hours_worked": 3.432578123888888,
+      "assignments": [
+        {
+          "employee_id": 8,
+          "project_id": 21,
+          "time_slot": {
+            "start": "2026-08-06T09:00:00",
+            "end": "2026-08-06T12:03:19.152325"
+          }
+        },
+        {
+          "employee_id": 8,
+          "project_id": 28,
+          "time_slot": {
+            "start": "2026-11-26T12:00:00",
+            "end": "2026-11-26T14:48:51.108924"
+          }
+        },
+        {
+          "employee_id": 8,
+          "project_id": 3,
+          "time_slot": {
+            "start": "2026-11-01T06:00:00",
+            "end": "2026-11-01T11:42:58.640623"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 9,
+      "name": "Haven Lee",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 4.5906035525,
+      "overtime_hours_worked": 6.818792895,
+      "assignments": [
+        {
+          "employee_id": 9,
+          "project_id": 4,
+          "time_slot": {
+            "start": "2026-11-27T10:00:00",
+            "end": "2026-11-27T14:44:36.050768"
+          }
+        },
+        {
+          "employee_id": 9,
+          "project_id": 23,
+          "time_slot": {
+            "start": "2026-05-22T18:00:00",
+            "end": "2026-05-23T00:39:57.776443"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 10,
+      "name": "Indigo Scott",
+      "skills": [
+        "Graphics Designer",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 8.800079590833334,
+      "overtime_hours_worked": 2.9442167899999987,
+      "assignments": [
+        {
+          "employee_id": 10,
+          "project_id": 32,
+          "time_slot": {
+            "start": "2026-06-09T07:00:00",
+            "end": "2026-06-09T12:28:19.590222"
+          }
+        },
+        {
+          "employee_id": 10,
+          "project_id": 38,
+          "time_slot": {
+            "start": "2026-10-12T18:00:00",
+            "end": "2026-10-12T21:26:30.997020"
+          }
+        },
+        {
+          "employee_id": 10,
+          "project_id": 24,
+          "time_slot": {
+            "start": "2026-10-04T07:00:00",
+            "end": "2026-10-04T09:49:48.879729"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 11,
+      "name": "Dakota Lopez",
+      "skills": [
+        "Producer",
+        "Colorist"
+      ],
+      "regular_hours_worked": 1.803853051111112,
+      "overtime_hours_worked": 12.392293897777776,
+      "assignments": [
+        {
+          "employee_id": 11,
+          "project_id": 16,
+          "time_slot": {
+            "start": "2026-06-10T16:00:00",
+            "end": "2026-06-10T23:05:17.130037"
+          }
+        },
+        {
+          "employee_id": 11,
+          "project_id": 2,
+          "time_slot": {
+            "start": "2026-09-18T07:00:00",
+            "end": "2026-09-18T14:06:28.998979"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 12,
+      "name": "Justice Cox",
+      "skills": [
+        "Editor",
+        "Producer"
+      ],
+      "regular_hours_worked": 4.36787408888889,
+      "overtime_hours_worked": 11.7470319,
+      "assignments": [
+        {
+          "employee_id": 12,
+          "project_id": 30,
+          "time_slot": {
+            "start": "2026-11-29T07:00:00",
+            "end": "2026-11-29T13:41:14.633872"
+          }
+        },
+        {
+          "employee_id": 12,
+          "project_id": 50,
+          "time_slot": {
+            "start": "2026-05-18T15:00:00",
+            "end": "2026-05-18T17:14:29.004140"
+          }
+        },
+        {
+          "employee_id": 12,
+          "project_id": 13,
+          "time_slot": {
+            "start": "2026-06-18T10:00:00",
+            "end": "2026-06-18T17:11:10.023548"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 13,
+      "name": "Gale Collins",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 5.202889165277777,
+      "overtime_hours_worked": 5.594221669444446,
+      "assignments": [
+        {
+          "employee_id": 13,
+          "project_id": 4,
+          "time_slot": {
+            "start": "2026-11-27T10:00:00",
+            "end": "2026-11-27T14:44:36.050768"
+          }
+        },
+        {
+          "employee_id": 13,
+          "project_id": 18,
+          "time_slot": {
+            "start": "2026-08-15T13:00:00",
+            "end": "2026-08-15T19:03:13.548237"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 14,
+      "name": "London Hernandez",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 4.041390422777777,
+      "overtime_hours_worked": 5.577707892777779,
+      "assignments": [
+        {
+          "employee_id": 14,
+          "project_id": 27,
+          "time_slot": {
+            "start": "2026-12-09T16:00:00",
+            "end": "2026-12-09T22:47:19.874207"
+          }
+        },
+        {
+          "employee_id": 14,
+          "project_id": 24,
+          "time_slot": {
+            "start": "2026-10-04T07:00:00",
+            "end": "2026-10-04T09:49:48.879729"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 15,
+      "name": "Charlie Richardson",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 1.2457665494444443,
+      "overtime_hours_worked": 13.508466901111111,
+      "assignments": [
+        {
+          "employee_id": 15,
+          "project_id": 42,
+          "time_slot": {
+            "start": "2026-03-06T16:00:00",
+            "end": "2026-03-06T23:12:38.761861"
+          }
+        },
+        {
+          "employee_id": 15,
+          "project_id": 47,
+          "time_slot": {
+            "start": "2026-12-18T09:00:00",
+            "end": "2026-12-18T16:32:36.478561"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 16,
+      "name": "Lane Kelly",
+      "skills": [
+        "Editor",
+        "Producer"
+      ],
+      "regular_hours_worked": 4.5906035525,
+      "overtime_hours_worked": 6.818792895,
+      "assignments": [
+        {
+          "employee_id": 16,
+          "project_id": 4,
+          "time_slot": {
+            "start": "2026-11-27T10:00:00",
+            "end": "2026-11-27T14:44:36.050768"
+          }
+        },
+        {
+          "employee_id": 16,
+          "project_id": 23,
+          "time_slot": {
+            "start": "2026-05-22T18:00:00",
+            "end": "2026-05-23T00:39:57.776443"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 17,
+      "name": "Riley James",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 4.467183744722222,
+      "overtime_hours_worked": 6.421534367222222,
+      "assignments": [
+        {
+          "employee_id": 17,
+          "project_id": 42,
+          "time_slot": {
+            "start": "2026-03-06T16:00:00",
+            "end": "2026-03-06T23:12:38.761861"
+          }
+        },
+        {
+          "employee_id": 17,
+          "project_id": 37,
+          "time_slot": {
+            "start": "2026-05-13T11:00:00",
+            "end": "2026-05-13T14:40:40.623342"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 18,
+      "name": "Drew Robinson",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 8.626820058055555,
+      "overtime_hours_worked": 3.5571845688888892,
+      "assignments": [
+        {
+          "employee_id": 18,
+          "project_id": 8,
+          "time_slot": {
+            "start": "2026-06-20T18:00:00",
+            "end": "2026-06-20T20:47:05.704671"
+          }
+        },
+        {
+          "employee_id": 18,
+          "project_id": 35,
+          "time_slot": {
+            "start": "2026-09-25T16:00:00",
+            "end": "2026-09-25T19:37:13.779762"
+          }
+        },
+        {
+          "employee_id": 18,
+          "project_id": 20,
+          "time_slot": {
+            "start": "2026-08-01T20:00:00",
+            "end": "2026-08-02T01:46:42.932224"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 19,
+      "name": "London Scott",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 1.0996521333333336,
+      "overtime_hours_worked": 13.800695733333333,
+      "assignments": [
+        {
+          "employee_id": 19,
+          "project_id": 16,
+          "time_slot": {
+            "start": "2026-06-10T16:00:00",
+            "end": "2026-06-10T23:05:17.130037"
+          }
+        },
+        {
+          "employee_id": 19,
+          "project_id": 1,
+          "time_slot": {
+            "start": "2026-06-01T09:00:00",
+            "end": "2026-06-01T16:48:44.122283"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 20,
+      "name": "Lane Lee",
+      "skills": [
+        "Editor",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 9.052826885555557,
+      "overtime_hours_worked": 7.624512379444445,
+      "assignments": [
+        {
+          "employee_id": 20,
+          "project_id": 33,
+          "time_slot": {
+            "start": "2026-12-23T18:00:00",
+            "end": "2026-12-23T21:48:34.186007"
+          }
+        },
+        {
+          "employee_id": 20,
+          "project_id": 28,
+          "time_slot": {
+            "start": "2026-11-26T12:00:00",
+            "end": "2026-11-26T14:48:51.108924"
+          }
+        },
+        {
+          "employee_id": 20,
+          "project_id": 50,
+          "time_slot": {
+            "start": "2026-05-18T15:00:00",
+            "end": "2026-05-18T17:14:29.004140"
+          }
+        },
+        {
+          "employee_id": 20,
+          "project_id": 1,
+          "time_slot": {
+            "start": "2026-06-01T09:00:00",
+            "end": "2026-06-01T16:48:44.122283"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 21,
+      "name": "Devin Wright",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 8.215496357500001,
+      "overtime_hours_worked": 3.5571845688888892,
+      "assignments": [
+        {
+          "employee_id": 21,
+          "project_id": 25,
+          "time_slot": {
+            "start": "2026-08-27T12:00:00",
+            "end": "2026-08-27T14:22:24.939349"
+          }
+        },
+        {
+          "employee_id": 21,
+          "project_id": 35,
+          "time_slot": {
+            "start": "2026-09-25T16:00:00",
+            "end": "2026-09-25T19:37:13.779762"
+          }
+        },
+        {
+          "employee_id": 21,
+          "project_id": 20,
+          "time_slot": {
+            "start": "2026-08-01T20:00:00",
+            "end": "2026-08-02T01:46:42.932224"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 22,
+      "name": "Ellis Chavez",
+      "skills": [
+        "Editor",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 9.116942795,
+      "overtime_hours_worked": 1.6482802527777771,
+      "assignments": [
+        {
+          "employee_id": 22,
+          "project_id": 5,
+          "time_slot": {
+            "start": "2026-06-28T20:00:00",
+            "end": "2026-06-28T22:24:45.892384"
+          }
+        },
+        {
+          "employee_id": 22,
+          "project_id": 15,
+          "time_slot": {
+            "start": "2026-10-23T09:00:00",
+            "end": "2026-10-23T12:31:42.006133"
+          }
+        },
+        {
+          "employee_id": 22,
+          "project_id": 12,
+          "time_slot": {
+            "start": "2026-01-20T19:00:00",
+            "end": "2026-01-20T23:49:26.904455"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 23,
+      "name": "Arden Sanders",
+      "skills": [
+        "Audio Engineer",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 3.9855127802777783,
+      "overtime_hours_worked": 8.028974439444443,
+      "assignments": [
+        {
+          "employee_id": 23,
+          "project_id": 44,
+          "time_slot": {
+            "start": "2026-05-08T07:00:00",
+            "end": "2026-05-08T12:20:54.377548"
+          }
+        },
+        {
+          "employee_id": 23,
+          "project_id": 23,
+          "time_slot": {
+            "start": "2026-05-22T18:00:00",
+            "end": "2026-05-23T00:39:57.776443"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 24,
+      "name": "London Wright",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 8.959175325,
+      "overtime_hours_worked": 1.7327502472222207,
+      "assignments": [
+        {
+          "employee_id": 24,
+          "project_id": 33,
+          "time_slot": {
+            "start": "2026-12-23T18:00:00",
+            "end": "2026-12-23T21:48:34.186007"
+          }
+        },
+        {
+          "employee_id": 24,
+          "project_id": 46,
+          "time_slot": {
+            "start": "2026-02-08T08:00:00",
+            "end": "2026-02-08T10:00:57.795608"
+          }
+        },
+        {
+          "employee_id": 24,
+          "project_id": 43,
+          "time_slot": {
+            "start": "2026-05-10T19:00:00",
+            "end": "2026-05-10T23:51:58.950445"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 25,
+      "name": "Cody Ruiz",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 3.2855025866666674,
+      "overtime_hours_worked": 6.176183353888888,
+      "assignments": [
+        {
+          "employee_id": 25,
+          "project_id": 25,
+          "time_slot": {
+            "start": "2026-08-27T12:00:00",
+            "end": "2026-08-27T14:22:24.939349"
+          }
+        },
+        {
+          "employee_id": 25,
+          "project_id": 16,
+          "time_slot": {
+            "start": "2026-06-10T16:00:00",
+            "end": "2026-06-10T23:05:17.130037"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 26,
+      "name": "Ellis Adams",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 3.6194771855555556,
+      "overtime_hours_worked": 6.421534367222222,
+      "assignments": [
+        {
+          "employee_id": 26,
+          "project_id": 42,
+          "time_slot": {
+            "start": "2026-03-06T16:00:00",
+            "end": "2026-03-06T23:12:38.761861"
+          }
+        },
+        {
+          "employee_id": 26,
+          "project_id": 24,
+          "time_slot": {
+            "start": "2026-10-04T07:00:00",
+            "end": "2026-10-04T09:49:48.879729"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 27,
+      "name": "Hollis Davis",
+      "skills": [
+        "Editor",
+        "Producer"
+      ],
+      "regular_hours_worked": 12.811708175277777,
+      "overtime_hours_worked": 1.2531063627777783,
+      "assignments": [
+        {
+          "employee_id": 27,
+          "project_id": 5,
+          "time_slot": {
+            "start": "2026-06-28T20:00:00",
+            "end": "2026-06-28T22:24:45.892384"
+          }
+        },
+        {
+          "employee_id": 27,
+          "project_id": 15,
+          "time_slot": {
+            "start": "2026-10-23T09:00:00",
+            "end": "2026-10-23T12:31:42.006133"
+          }
+        },
+        {
+          "employee_id": 27,
+          "project_id": 10,
+          "time_slot": {
+            "start": "2026-04-18T16:00:00",
+            "end": "2026-04-18T19:29:49.842367"
+          }
+        },
+        {
+          "employee_id": 27,
+          "project_id": 49,
+          "time_slot": {
+            "start": "2026-10-04T13:00:00",
+            "end": "2026-10-04T17:37:35.591453"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 28,
+      "name": "Jules Green",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 9.563493366944446,
+      "overtime_hours_worked": 7.624512379444445,
+      "assignments": [
+        {
+          "employee_id": 28,
+          "project_id": 19,
+          "time_slot": {
+            "start": "2026-05-01T16:00:00",
+            "end": "2026-05-01T19:51:45.060429"
+          }
+        },
+        {
+          "employee_id": 28,
+          "project_id": 46,
+          "time_slot": {
+            "start": "2026-02-08T08:00:00",
+            "end": "2026-02-08T10:00:57.795608"
+          }
+        },
+        {
+          "employee_id": 28,
+          "project_id": 10,
+          "time_slot": {
+            "start": "2026-04-18T16:00:00",
+            "end": "2026-04-18T19:29:49.842367"
+          }
+        },
+        {
+          "employee_id": 28,
+          "project_id": 1,
+          "time_slot": {
+            "start": "2026-06-01T09:00:00",
+            "end": "2026-06-01T16:48:44.122283"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 29,
+      "name": "Sam Ramirez",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 1.2233461111111108,
+      "overtime_hours_worked": 13.553307777777778,
+      "assignments": [
+        {
+          "employee_id": 29,
+          "project_id": 6,
+          "time_slot": {
+            "start": "2026-10-11T10:00:00",
+            "end": "2026-10-11T17:35:25.930452"
+          }
+        },
+        {
+          "employee_id": 29,
+          "project_id": 13,
+          "time_slot": {
+            "start": "2026-06-18T10:00:00",
+            "end": "2026-06-18T17:11:10.023548"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 30,
+      "name": "Bellamy Alvarez",
+      "skills": [
+        "Colorist",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 3.7743627441666665,
+      "overtime_hours_worked": 7.181072473333334,
+      "assignments": [
+        {
+          "employee_id": 30,
+          "project_id": 6,
+          "time_slot": {
+            "start": "2026-10-11T10:00:00",
+            "end": "2026-10-11T17:35:25.930452"
+          }
+        },
+        {
+          "employee_id": 30,
+          "project_id": 41,
+          "time_slot": {
+            "start": "2026-04-10T10:00:00",
+            "end": "2026-04-10T13:21:53.636331"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 31,
+      "name": "Max Chavez",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 5.732113896944444,
+      "overtime_hours_worked": 4.535772206111112,
+      "assignments": [
+        {
+          "employee_id": 31,
+          "project_id": 39,
+          "time_slot": {
+            "start": "2026-12-06T15:00:00",
+            "end": "2026-12-06T19:12:50.841734"
+          }
+        },
+        {
+          "employee_id": 31,
+          "project_id": 18,
+          "time_slot": {
+            "start": "2026-08-15T13:00:00",
+            "end": "2026-08-15T19:03:13.548237"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 32,
+      "name": "Bailey Moore",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 3.0093797677777783,
+      "overtime_hours_worked": 9.981240464444443,
+      "assignments": [
+        {
+          "employee_id": 32,
+          "project_id": 44,
+          "time_slot": {
+            "start": "2026-05-08T07:00:00",
+            "end": "2026-05-08T12:20:54.377548"
+          }
+        },
+        {
+          "employee_id": 32,
+          "project_id": 17,
+          "time_slot": {
+            "start": "2026-08-04T16:00:00",
+            "end": "2026-08-04T23:38:31.855288"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 33,
+      "name": "Greer Howard",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 7.833327785,
+      "overtime_hours_worked": 6.644355951666666,
+      "assignments": [
+        {
+          "employee_id": 33,
+          "project_id": 39,
+          "time_slot": {
+            "start": "2026-12-06T15:00:00",
+            "end": "2026-12-06T19:12:50.841734"
+          }
+        },
+        {
+          "employee_id": 33,
+          "project_id": 40,
+          "time_slot": {
+            "start": "2026-03-03T17:00:00",
+            "end": "2026-03-03T20:09:19.820739"
+          }
+        },
+        {
+          "employee_id": 33,
+          "project_id": 2,
+          "time_slot": {
+            "start": "2026-09-18T07:00:00",
+            "end": "2026-09-18T14:06:28.998979"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 34,
+      "name": "Briar Phillips",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 5.106745388333333,
+      "overtime_hours_worked": 5.511542795,
+      "assignments": [
+        {
+          "employee_id": 34,
+          "project_id": 19,
+          "time_slot": {
+            "start": "2026-05-01T16:00:00",
+            "end": "2026-05-01T19:51:45.060429"
+          }
+        },
+        {
+          "employee_id": 34,
+          "project_id": 48,
+          "time_slot": {
+            "start": "2026-01-31T08:00:00",
+            "end": "2026-01-31T14:45:20.777031"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 35,
+      "name": "Val Murphy",
+      "skills": [
+        "Producer",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 4.552462399444444,
+      "overtime_hours_worked": 5.005715381666667,
+      "assignments": [
+        {
+          "employee_id": 35,
+          "project_id": 21,
+          "time_slot": {
+            "start": "2026-08-06T09:00:00",
+            "end": "2026-08-06T12:03:19.152325"
+          }
+        },
+        {
+          "employee_id": 35,
+          "project_id": 36,
+          "time_slot": {
+            "start": "2026-08-19T09:00:00",
+            "end": "2026-08-19T15:30:10.287687"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 36,
+      "name": "Emerson Martin",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 4.837265733888888,
+      "overtime_hours_worked": 6.325468532222224,
+      "assignments": [
+        {
+          "employee_id": 36,
+          "project_id": 4,
+          "time_slot": {
+            "start": "2026-11-27T10:00:00",
+            "end": "2026-11-27T14:44:36.050768"
+          }
+        },
+        {
+          "employee_id": 36,
+          "project_id": 11,
+          "time_slot": {
+            "start": "2026-01-13T08:00:00",
+            "end": "2026-01-13T14:25:09.792590"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 37,
+      "name": "Ivory Mendoza",
+      "skills": [
+        "Editor"
+      ],
+      "regular_hours_worked": 1.803853051111112,
+      "overtime_hours_worked": 12.392293897777776,
+      "assignments": [
+        {
+          "employee_id": 37,
+          "project_id": 16,
+          "time_slot": {
+            "start": "2026-06-10T16:00:00",
+            "end": "2026-06-10T23:05:17.130037"
+          }
+        },
+        {
+          "employee_id": 37,
+          "project_id": 2,
+          "time_slot": {
+            "start": "2026-09-18T07:00:00",
+            "end": "2026-09-18T14:06:28.998979"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 38,
+      "name": "Sam Roberts",
+      "skills": [
+        "Audio Engineer",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 9.489091034166668,
+      "overtime_hours_worked": 1.8473137005555547,
+      "assignments": [
+        {
+          "employee_id": 38,
+          "project_id": 5,
+          "time_slot": {
+            "start": "2026-06-28T20:00:00",
+            "end": "2026-06-28T22:24:45.892384"
+          }
+        },
+        {
+          "employee_id": 38,
+          "project_id": 7,
+          "time_slot": {
+            "start": "2026-04-18T17:00:00",
+            "end": "2026-04-18T21:03:26.214216"
+          }
+        },
+        {
+          "employee_id": 38,
+          "project_id": 43,
+          "time_slot": {
+            "start": "2026-05-10T19:00:00",
+            "end": "2026-05-10T23:51:58.950445"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 39,
+      "name": "Zion Allen",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 9.096293322777777,
+      "overtime_hours_worked": 0.0,
+      "assignments": [
+        {
+          "employee_id": 39,
+          "project_id": 8,
+          "time_slot": {
+            "start": "2026-06-20T18:00:00",
+            "end": "2026-06-20T20:47:05.704671"
+          }
+        },
+        {
+          "employee_id": 39,
+          "project_id": 28,
+          "time_slot": {
+            "start": "2026-11-26T12:00:00",
+            "end": "2026-11-26T14:48:51.108924"
+          }
+        },
+        {
+          "employee_id": 39,
+          "project_id": 10,
+          "time_slot": {
+            "start": "2026-04-18T16:00:00",
+            "end": "2026-04-18T19:29:49.842367"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 40,
+      "name": "Jordan Mendoza",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 9.14452716,
+      "overtime_hours_worked": 1.7430543511111107,
+      "assignments": [
+        {
+          "employee_id": 40,
+          "project_id": 34,
+          "time_slot": {
+            "start": "2026-09-17T16:00:00",
+            "end": "2026-09-17T20:02:50.593377"
+          }
+        },
+        {
+          "employee_id": 40,
+          "project_id": 46,
+          "time_slot": {
+            "start": "2026-02-08T08:00:00",
+            "end": "2026-02-08T10:00:57.795608"
+          }
+        },
+        {
+          "employee_id": 40,
+          "project_id": 12,
+          "time_slot": {
+            "start": "2026-01-20T19:00:00",
+            "end": "2026-01-20T23:49:26.904455"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 41,
+      "name": "Ellis Morgan",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 2.1030907816666664,
+      "overtime_hours_worked": 11.793818436666667,
+      "assignments": [
+        {
+          "employee_id": 41,
+          "project_id": 27,
+          "time_slot": {
+            "start": "2026-12-09T16:00:00",
+            "end": "2026-12-09T22:47:19.874207"
+          }
+        },
+        {
+          "employee_id": 41,
+          "project_id": 2,
+          "time_slot": {
+            "start": "2026-09-18T07:00:00",
+            "end": "2026-09-18T14:06:28.998979"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 42,
+      "name": "Holland Chavez",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 7.554757767222221,
+      "overtime_hours_worked": 7.2014959872222235,
+      "assignments": [
+        {
+          "employee_id": 42,
+          "project_id": 7,
+          "time_slot": {
+            "start": "2026-04-18T17:00:00",
+            "end": "2026-04-18T21:03:26.214216"
+          }
+        },
+        {
+          "employee_id": 42,
+          "project_id": 40,
+          "time_slot": {
+            "start": "2026-03-03T17:00:00",
+            "end": "2026-03-03T20:09:19.820739"
+          }
+        },
+        {
+          "employee_id": 42,
+          "project_id": 47,
+          "time_slot": {
+            "start": "2026-12-18T09:00:00",
+            "end": "2026-12-18T16:32:36.478561"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 43,
+      "name": "River Lee",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 4.300536248888889,
+      "overtime_hours_worked": 7.398927502222222,
+      "assignments": [
+        {
+          "employee_id": 43,
+          "project_id": 7,
+          "time_slot": {
+            "start": "2026-04-18T17:00:00",
+            "end": "2026-04-18T21:03:26.214216"
+          }
+        },
+        {
+          "employee_id": 43,
+          "project_id": 17,
+          "time_slot": {
+            "start": "2026-08-04T16:00:00",
+            "end": "2026-08-04T23:38:31.855288"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 44,
+      "name": "Flynn Castillo",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 9.291996976944446,
+      "overtime_hours_worked": 2.7676349833333322,
+      "assignments": [
+        {
+          "employee_id": 44,
+          "project_id": 21,
+          "time_slot": {
+            "start": "2026-08-06T09:00:00",
+            "end": "2026-08-06T12:03:19.152325"
+          }
+        },
+        {
+          "employee_id": 44,
+          "project_id": 35,
+          "time_slot": {
+            "start": "2026-09-25T16:00:00",
+            "end": "2026-09-25T19:37:13.779762"
+          }
+        },
+        {
+          "employee_id": 44,
+          "project_id": 31,
+          "time_slot": {
+            "start": "2026-12-09T07:00:00",
+            "end": "2026-12-09T12:23:01.742970"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 45,
+      "name": "Teagan Wilson",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 2.8796939322222217,
+      "overtime_hours_worked": 6.699698503888889,
+      "assignments": [
+        {
+          "employee_id": 45,
+          "project_id": 14,
+          "time_slot": {
+            "start": "2026-10-25T10:00:00",
+            "end": "2026-10-25T12:13:46.355463"
+          }
+        },
+        {
+          "employee_id": 45,
+          "project_id": 26,
+          "time_slot": {
+            "start": "2026-07-19T19:00:00",
+            "end": "2026-07-20T02:20:59.457307"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 46,
+      "name": "Eden Brooks",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 9.746043716111112,
+      "overtime_hours_worked": 0.11456345333333395,
+      "assignments": [
+        {
+          "employee_id": 46,
+          "project_id": 7,
+          "time_slot": {
+            "start": "2026-04-18T17:00:00",
+            "end": "2026-04-18T21:03:26.214216"
+          }
+        },
+        {
+          "employee_id": 46,
+          "project_id": 38,
+          "time_slot": {
+            "start": "2026-10-12T18:00:00",
+            "end": "2026-10-12T21:26:30.997020"
+          }
+        },
+        {
+          "employee_id": 46,
+          "project_id": 45,
+          "time_slot": {
+            "start": "2026-10-19T15:00:00",
+            "end": "2026-10-19T17:21:40.974574"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 47,
+      "name": "Sage Martin",
+      "skills": [
+        "Editor",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 3.2397081324999997,
+      "overtime_hours_worked": 7.181072473333334,
+      "assignments": [
+        {
+          "employee_id": 47,
+          "project_id": 6,
+          "time_slot": {
+            "start": "2026-10-11T10:00:00",
+            "end": "2026-10-11T17:35:25.930452"
+          }
+        },
+        {
+          "employee_id": 47,
+          "project_id": 24,
+          "time_slot": {
+            "start": "2026-10-04T07:00:00",
+            "end": "2026-10-04T09:49:48.879729"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 48,
+      "name": "Aspen Ortiz",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 6.2531407508333325,
+      "overtime_hours_worked": 7.952804866666668,
+      "assignments": [
+        {
+          "employee_id": 48,
+          "project_id": 14,
+          "time_slot": {
+            "start": "2026-10-25T10:00:00",
+            "end": "2026-10-25T12:13:46.355463"
+          }
+        },
+        {
+          "employee_id": 48,
+          "project_id": 26,
+          "time_slot": {
+            "start": "2026-07-19T19:00:00",
+            "end": "2026-07-20T02:20:59.457307"
+          }
+        },
+        {
+          "employee_id": 48,
+          "project_id": 49,
+          "time_slot": {
+            "start": "2026-10-04T13:00:00",
+            "end": "2026-10-04T17:37:35.591453"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 49,
+      "name": "Carson Adams",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 8.390189494722222,
+      "overtime_hours_worked": 3.651958667222223,
+      "assignments": [
+        {
+          "employee_id": 49,
+          "project_id": 34,
+          "time_slot": {
+            "start": "2026-09-17T16:00:00",
+            "end": "2026-09-17T20:02:50.593377"
+          }
+        },
+        {
+          "employee_id": 49,
+          "project_id": 9,
+          "time_slot": {
+            "start": "2026-03-18T14:00:00",
+            "end": "2026-03-18T16:12:58.207782"
+          }
+        },
+        {
+          "employee_id": 49,
+          "project_id": 20,
+          "time_slot": {
+            "start": "2026-08-01T20:00:00",
+            "end": "2026-08-02T01:46:42.932224"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 50,
+      "name": "Emerson Campbell",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 6.364766120833334,
+      "overtime_hours_worked": 7.702805415,
+      "assignments": [
+        {
+          "employee_id": 50,
+          "project_id": 4,
+          "time_slot": {
+            "start": "2026-11-27T10:00:00",
+            "end": "2026-11-27T14:44:36.050768"
+          }
+        },
+        {
+          "employee_id": 50,
+          "project_id": 9,
+          "time_slot": {
+            "start": "2026-03-18T14:00:00",
+            "end": "2026-03-18T16:12:58.207782"
+          }
+        },
+        {
+          "employee_id": 50,
+          "project_id": 2,
+          "time_slot": {
+            "start": "2026-09-18T07:00:00",
+            "end": "2026-09-18T14:06:28.998979"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 51,
+      "name": "Jules Flores",
+      "skills": [
+        "Producer",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 1.7691354352777777,
+      "overtime_hours_worked": 12.461729129444445,
+      "assignments": [
+        {
+          "employee_id": 51,
+          "project_id": 30,
+          "time_slot": {
+            "start": "2026-11-29T07:00:00",
+            "end": "2026-11-29T13:41:14.633872"
+          }
+        },
+        {
+          "employee_id": 51,
+          "project_id": 47,
+          "time_slot": {
+            "start": "2026-12-18T09:00:00",
+            "end": "2026-12-18T16:32:36.478561"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 52,
+      "name": "Bellamy Hernandez",
+      "skills": [
+        "Editor",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 8.596963939166667,
+      "overtime_hours_worked": 3.432578123888888,
+      "assignments": [
+        {
+          "employee_id": 52,
+          "project_id": 8,
+          "time_slot": {
+            "start": "2026-06-20T18:00:00",
+            "end": "2026-06-20T20:47:05.704671"
+          }
+        },
+        {
+          "employee_id": 52,
+          "project_id": 15,
+          "time_slot": {
+            "start": "2026-10-23T09:00:00",
+            "end": "2026-10-23T12:31:42.006133"
+          }
+        },
+        {
+          "employee_id": 52,
+          "project_id": 3,
+          "time_slot": {
+            "start": "2026-11-01T06:00:00",
+            "end": "2026-11-01T11:42:58.640623"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 53,
+      "name": "Sam Morgan",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 4.099384934444445,
+      "overtime_hours_worked": 12.548418658333333,
+      "assignments": [
+        {
+          "employee_id": 53,
+          "project_id": 25,
+          "time_slot": {
+            "start": "2026-08-27T12:00:00",
+            "end": "2026-08-27T14:22:24.939349"
+          }
+        },
+        {
+          "employee_id": 53,
+          "project_id": 16,
+          "time_slot": {
+            "start": "2026-06-10T16:00:00",
+            "end": "2026-06-10T23:05:17.130037"
+          }
+        },
+        {
+          "employee_id": 53,
+          "project_id": 13,
+          "time_slot": {
+            "start": "2026-06-18T10:00:00",
+            "end": "2026-06-18T17:11:10.023548"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 54,
+      "name": "Harper James",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 5.8274216658333335,
+      "overtime_hours_worked": 4.345156668333333,
+      "assignments": [
+        {
+          "employee_id": 54,
+          "project_id": 44,
+          "time_slot": {
+            "start": "2026-05-08T07:00:00",
+            "end": "2026-05-08T12:20:54.377548"
+          }
+        },
+        {
+          "employee_id": 54,
+          "project_id": 12,
+          "time_slot": {
+            "start": "2026-01-20T19:00:00",
+            "end": "2026-01-20T23:49:26.904455"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 55,
+      "name": "Aubrey Perez",
+      "skills": [
+        "Colorist",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 2.8932148716666664,
+      "overtime_hours_worked": 10.213570256666667,
+      "assignments": [
+        {
+          "employee_id": 55,
+          "project_id": 30,
+          "time_slot": {
+            "start": "2026-11-29T07:00:00",
+            "end": "2026-11-29T13:41:14.633872"
+          }
+        },
+        {
+          "employee_id": 55,
+          "project_id": 11,
+          "time_slot": {
+            "start": "2026-01-13T08:00:00",
+            "end": "2026-01-13T14:25:09.792590"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 56,
+      "name": "Spencer Cooper",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 10.329900854722222,
+      "overtime_hours_worked": 0.0,
+      "assignments": [
+        {
+          "employee_id": 56,
+          "project_id": 33,
+          "time_slot": {
+            "start": "2026-12-23T18:00:00",
+            "end": "2026-12-23T21:48:34.186007"
+          }
+        },
+        {
+          "employee_id": 56,
+          "project_id": 40,
+          "time_slot": {
+            "start": "2026-03-03T17:00:00",
+            "end": "2026-03-03T20:09:19.820739"
+          }
+        },
+        {
+          "employee_id": 56,
+          "project_id": 41,
+          "time_slot": {
+            "start": "2026-04-10T10:00:00",
+            "end": "2026-04-10T13:21:53.636331"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 57,
+      "name": "Emery Sanchez",
+      "skills": [
+        "Editor"
+      ],
+      "regular_hours_worked": 7.74939494861111,
+      "overtime_hours_worked": 4.933547759444446,
+      "assignments": [
+        {
+          "employee_id": 57,
+          "project_id": 34,
+          "time_slot": {
+            "start": "2026-09-17T16:00:00",
+            "end": "2026-09-17T20:02:50.593377"
+          }
+        },
+        {
+          "employee_id": 57,
+          "project_id": 9,
+          "time_slot": {
+            "start": "2026-03-18T14:00:00",
+            "end": "2026-03-18T16:12:58.207782"
+          }
+        },
+        {
+          "employee_id": 57,
+          "project_id": 11,
+          "time_slot": {
+            "start": "2026-01-13T08:00:00",
+            "end": "2026-01-13T14:25:09.792590"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 58,
+      "name": "Micah Bennett",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 3.405415324722223,
+      "overtime_hours_worked": 9.189169350555554,
+      "assignments": [
+        {
+          "employee_id": 58,
+          "project_id": 42,
+          "time_slot": {
+            "start": "2026-03-06T16:00:00",
+            "end": "2026-03-06T23:12:38.761861"
+          }
+        },
+        {
+          "employee_id": 58,
+          "project_id": 31,
+          "time_slot": {
+            "start": "2026-12-09T07:00:00",
+            "end": "2026-12-09T12:23:01.742970"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 59,
+      "name": "Robin Gutierrez",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 4.015049728888888,
+      "overtime_hours_worked": 6.699698503888889,
+      "assignments": [
+        {
+          "employee_id": 59,
+          "project_id": 26,
+          "time_slot": {
+            "start": "2026-07-19T19:00:00",
+            "end": "2026-07-20T02:20:59.457307"
+          }
+        },
+        {
+          "employee_id": 59,
+          "project_id": 41,
+          "time_slot": {
+            "start": "2026-04-10T10:00:00",
+            "end": "2026-04-10T13:21:53.636331"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 60,
+      "name": "Angel Lewis",
+      "skills": [
+        "Producer",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 6.8389523880555565,
+      "overtime_hours_worked": 9.316452094444443,
+      "assignments": [
+        {
+          "employee_id": 60,
+          "project_id": 32,
+          "time_slot": {
+            "start": "2026-06-09T07:00:00",
+            "end": "2026-06-09T12:28:19.590222"
+          }
+        },
+        {
+          "employee_id": 60,
+          "project_id": 10,
+          "time_slot": {
+            "start": "2026-04-18T16:00:00",
+            "end": "2026-04-18T19:29:49.842367"
+          }
+        },
+        {
+          "employee_id": 60,
+          "project_id": 13,
+          "time_slot": {
+            "start": "2026-06-18T10:00:00",
+            "end": "2026-06-18T17:11:10.023548"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 61,
+      "name": "Brooklyn Peterson",
+      "skills": [
+        "Producer",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 5.603145962777778,
+      "overtime_hours_worked": 4.793708074444444,
+      "assignments": [
+        {
+          "employee_id": 61,
+          "project_id": 22,
+          "time_slot": {
+            "start": "2026-09-29T14:00:00",
+            "end": "2026-09-29T19:34:21.770079"
+          }
+        },
+        {
+          "employee_id": 61,
+          "project_id": 12,
+          "time_slot": {
+            "start": "2026-01-20T19:00:00",
+            "end": "2026-01-20T23:49:26.904455"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 62,
+      "name": "Alex Martinez",
+      "skills": [
+        "Editor"
+      ],
+      "regular_hours_worked": 4.621565935000001,
+      "overtime_hours_worked": 6.756868129999997,
+      "assignments": [
+        {
+          "employee_id": 62,
+          "project_id": 29,
+          "time_slot": {
+            "start": "2026-07-14T10:00:00",
+            "end": "2026-07-14T16:30:43.412189"
+          }
+        },
+        {
+          "employee_id": 62,
+          "project_id": 43,
+          "time_slot": {
+            "start": "2026-05-10T19:00:00",
+            "end": "2026-05-10T23:51:58.950445"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 63,
+      "name": "Quinn Robinson",
+      "skills": [
+        "Producer",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 4.889096981944444,
+      "overtime_hours_worked": 5.577707892777779,
+      "assignments": [
+        {
+          "employee_id": 63,
+          "project_id": 27,
+          "time_slot": {
+            "start": "2026-12-09T16:00:00",
+            "end": "2026-12-09T22:47:19.874207"
+          }
+        },
+        {
+          "employee_id": 63,
+          "project_id": 37,
+          "time_slot": {
+            "start": "2026-05-13T11:00:00",
+            "end": "2026-05-13T14:40:40.623342"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 64,
+      "name": "Hunter Martinez",
+      "skills": [
+        "Colorist"
+      ],
+      "regular_hours_worked": 7.999268260000001,
+      "overtime_hours_worked": 0.0,
+      "assignments": [
+        {
+          "employee_id": 64,
+          "project_id": 14,
+          "time_slot": {
+            "start": "2026-10-25T10:00:00",
+            "end": "2026-10-25T12:13:46.355463"
+          }
+        },
+        {
+          "employee_id": 64,
+          "project_id": 15,
+          "time_slot": {
+            "start": "2026-10-23T09:00:00",
+            "end": "2026-10-23T12:31:42.006133"
+          }
+        },
+        {
+          "employee_id": 64,
+          "project_id": 50,
+          "time_slot": {
+            "start": "2026-05-18T15:00:00",
+            "end": "2026-05-18T17:14:29.004140"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 65,
+      "name": "Chris Bennett",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 10.619333985277777,
+      "overtime_hours_worked": 0.4282454077777782,
+      "assignments": [
+        {
+          "employee_id": 65,
+          "project_id": 39,
+          "time_slot": {
+            "start": "2026-12-06T15:00:00",
+            "end": "2026-12-06T19:12:50.841734"
+          }
+        },
+        {
+          "employee_id": 65,
+          "project_id": 40,
+          "time_slot": {
+            "start": "2026-03-03T17:00:00",
+            "end": "2026-03-03T20:09:19.820739"
+          }
+        },
+        {
+          "employee_id": 65,
+          "project_id": 37,
+          "time_slot": {
+            "start": "2026-05-13T11:00:00",
+            "end": "2026-05-13T14:40:40.623342"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 66,
+      "name": "Aspen Taylor",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 11.671597553611111,
+      "overtime_hours_worked": 1.2531063627777783,
+      "assignments": [
+        {
+          "employee_id": 66,
+          "project_id": 8,
+          "time_slot": {
+            "start": "2026-06-20T18:00:00",
+            "end": "2026-06-20T20:47:05.704671"
+          }
+        },
+        {
+          "employee_id": 66,
+          "project_id": 46,
+          "time_slot": {
+            "start": "2026-02-08T08:00:00",
+            "end": "2026-02-08T10:00:57.795608"
+          }
+        },
+        {
+          "employee_id": 66,
+          "project_id": 10,
+          "time_slot": {
+            "start": "2026-04-18T16:00:00",
+            "end": "2026-04-18T19:29:49.842367"
+          }
+        },
+        {
+          "employee_id": 66,
+          "project_id": 49,
+          "time_slot": {
+            "start": "2026-10-04T13:00:00",
+            "end": "2026-10-04T17:37:35.591453"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 67,
+      "name": "Blair Kelly",
+      "skills": [
+        "Editor"
+      ],
+      "regular_hours_worked": 3.0237450116666666,
+      "overtime_hours_worked": 6.699698503888889,
+      "assignments": [
+        {
+          "employee_id": 67,
+          "project_id": 25,
+          "time_slot": {
+            "start": "2026-08-27T12:00:00",
+            "end": "2026-08-27T14:22:24.939349"
+          }
+        },
+        {
+          "employee_id": 67,
+          "project_id": 26,
+          "time_slot": {
+            "start": "2026-07-19T19:00:00",
+            "end": "2026-07-20T02:20:59.457307"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 68,
+      "name": "Indiana Stewart",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 7.606278110833333,
+      "overtime_hours_worked": 4.838773661111112,
+      "assignments": [
+        {
+          "employee_id": 68,
+          "project_id": 33,
+          "time_slot": {
+            "start": "2026-12-23T18:00:00",
+            "end": "2026-12-23T21:48:34.186007"
+          }
+        },
+        {
+          "employee_id": 68,
+          "project_id": 9,
+          "time_slot": {
+            "start": "2026-03-18T14:00:00",
+            "end": "2026-03-18T16:12:58.207782"
+          }
+        },
+        {
+          "employee_id": 68,
+          "project_id": 11,
+          "time_slot": {
+            "start": "2026-01-13T08:00:00",
+            "end": "2026-01-13T14:25:09.792590"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 69,
+      "name": "Rowan Gonzalez",
+      "skills": [
+        "Colorist",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 4.104123566944446,
+      "overtime_hours_worked": 7.791752866111109,
+      "assignments": [
+        {
+          "employee_id": 69,
+          "project_id": 29,
+          "time_slot": {
+            "start": "2026-07-14T10:00:00",
+            "end": "2026-07-14T16:30:43.412189"
+          }
+        },
+        {
+          "employee_id": 69,
+          "project_id": 31,
+          "time_slot": {
+            "start": "2026-12-09T07:00:00",
+            "end": "2026-12-09T12:23:01.742970"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 70,
+      "name": "Kai Diaz",
+      "skills": [
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 9.7913723175,
+      "overtime_hours_worked": 0.0,
+      "assignments": [
+        {
+          "employee_id": 70,
+          "project_id": 33,
+          "time_slot": {
+            "start": "2026-12-23T18:00:00",
+            "end": "2026-12-23T21:48:34.186007"
+          }
+        },
+        {
+          "employee_id": 70,
+          "project_id": 35,
+          "time_slot": {
+            "start": "2026-09-25T16:00:00",
+            "end": "2026-09-25T19:37:13.779762"
+          }
+        },
+        {
+          "employee_id": 70,
+          "project_id": 45,
+          "time_slot": {
+            "start": "2026-10-19T15:00:00",
+            "end": "2026-10-19T17:21:40.974574"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 71,
+      "name": "Gale Miller",
+      "skills": [
+        "Producer"
+      ],
+      "regular_hours_worked": 9.302406655555556,
+      "overtime_hours_worked": 1.8275243455555543,
+      "assignments": [
+        {
+          "employee_id": 71,
+          "project_id": 34,
+          "time_slot": {
+            "start": "2026-09-17T16:00:00",
+            "end": "2026-09-17T20:02:50.593377"
+          }
+        },
+        {
+          "employee_id": 71,
+          "project_id": 9,
+          "time_slot": {
+            "start": "2026-03-18T14:00:00",
+            "end": "2026-03-18T16:12:58.207782"
+          }
+        },
+        {
+          "employee_id": 71,
+          "project_id": 43,
+          "time_slot": {
+            "start": "2026-05-10T19:00:00",
+            "end": "2026-05-10T23:51:58.950445"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 72,
+      "name": "Corey Gonzalez",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 8.085642569722223,
+      "overtime_hours_worked": 3.860823531666666,
+      "assignments": [
+        {
+          "employee_id": 72,
+          "project_id": 39,
+          "time_slot": {
+            "start": "2026-12-06T15:00:00",
+            "end": "2026-12-06T19:12:50.841734"
+          }
+        },
+        {
+          "employee_id": 72,
+          "project_id": 46,
+          "time_slot": {
+            "start": "2026-02-08T08:00:00",
+            "end": "2026-02-08T10:00:57.795608"
+          }
+        },
+        {
+          "employee_id": 72,
+          "project_id": 3,
+          "time_slot": {
+            "start": "2026-11-01T06:00:00",
+            "end": "2026-11-01T11:42:58.640623"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 73,
+      "name": "Jaden Wilson",
+      "skills": [
+        "Editor",
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 7.646959254166667,
+      "overtime_hours_worked": 5.005715381666667,
+      "assignments": [
+        {
+          "employee_id": 73,
+          "project_id": 8,
+          "time_slot": {
+            "start": "2026-06-20T18:00:00",
+            "end": "2026-06-20T20:47:05.704671"
+          }
+        },
+        {
+          "employee_id": 73,
+          "project_id": 36,
+          "time_slot": {
+            "start": "2026-08-19T09:00:00",
+            "end": "2026-08-19T15:30:10.287687"
+          }
+        },
+        {
+          "employee_id": 73,
+          "project_id": 41,
+          "time_slot": {
+            "start": "2026-04-10T10:00:00",
+            "end": "2026-04-10T13:21:53.636331"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 74,
+      "name": "Arden Edwards",
+      "skills": [
+        "Editor",
+        "Colorist"
+      ],
+      "regular_hours_worked": 6.271272019722223,
+      "overtime_hours_worked": 5.005715381666667,
+      "assignments": [
+        {
+          "employee_id": 74,
+          "project_id": 5,
+          "time_slot": {
+            "start": "2026-06-28T20:00:00",
+            "end": "2026-06-28T22:24:45.892384"
+          }
+        },
+        {
+          "employee_id": 74,
+          "project_id": 36,
+          "time_slot": {
+            "start": "2026-08-19T09:00:00",
+            "end": "2026-08-19T15:30:10.287687"
+          }
+        },
+        {
+          "employee_id": 74,
+          "project_id": 45,
+          "time_slot": {
+            "start": "2026-10-19T15:00:00",
+            "end": "2026-10-19T17:21:40.974574"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 75,
+      "name": "Chris Reyes",
+      "skills": [
+        "Producer",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 3.0093797677777783,
+      "overtime_hours_worked": 9.981240464444443,
+      "assignments": [
+        {
+          "employee_id": 75,
+          "project_id": 44,
+          "time_slot": {
+            "start": "2026-05-08T07:00:00",
+            "end": "2026-05-08T12:20:54.377548"
+          }
+        },
+        {
+          "employee_id": 75,
+          "project_id": 17,
+          "time_slot": {
+            "start": "2026-08-04T16:00:00",
+            "end": "2026-08-04T23:38:31.855288"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 76,
+      "name": "Robin Peterson",
+      "skills": [
+        "Editor",
+        "Producer"
+      ],
+      "regular_hours_worked": 4.37352269,
+      "overtime_hours_worked": 7.252954620000001,
+      "assignments": [
+        {
+          "employee_id": 76,
+          "project_id": 22,
+          "time_slot": {
+            "start": "2026-09-29T14:00:00",
+            "end": "2026-09-29T19:34:21.770079"
+          }
+        },
+        {
+          "employee_id": 76,
+          "project_id": 18,
+          "time_slot": {
+            "start": "2026-08-15T13:00:00",
+            "end": "2026-08-15T19:03:13.548237"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 77,
+      "name": "Blake Walker",
+      "skills": [
+        "Editor",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 3.432553769166666,
+      "overtime_hours_worked": 9.134892461666668,
+      "assignments": [
+        {
+          "employee_id": 77,
+          "project_id": 27,
+          "time_slot": {
+            "start": "2026-12-09T16:00:00",
+            "end": "2026-12-09T22:47:19.874207"
+          }
+        },
+        {
+          "employee_id": 77,
+          "project_id": 20,
+          "time_slot": {
+            "start": "2026-08-01T20:00:00",
+            "end": "2026-08-02T01:46:42.932224"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 78,
+      "name": "Sloan Ramirez",
+      "skills": [
+        "Graphics Designer"
+      ],
+      "regular_hours_worked": 5.196841553333333,
+      "overtime_hours_worked": 5.606316893333334,
+      "assignments": [
+        {
+          "employee_id": 78,
+          "project_id": 34,
+          "time_slot": {
+            "start": "2026-09-17T16:00:00",
+            "end": "2026-09-17T20:02:50.593377"
+          }
+        },
+        {
+          "employee_id": 78,
+          "project_id": 48,
+          "time_slot": {
+            "start": "2026-01-31T08:00:00",
+            "end": "2026-01-31T14:45:20.777031"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 79,
+      "name": "Quinn Perez",
+      "skills": [
+        "Colorist",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 4.474128205833334,
+      "overtime_hours_worked": 7.051743588333332,
+      "assignments": [
+        {
+          "employee_id": 79,
+          "project_id": 32,
+          "time_slot": {
+            "start": "2026-06-09T07:00:00",
+            "end": "2026-06-09T12:28:19.590222"
+          }
+        },
+        {
+          "employee_id": 79,
+          "project_id": 18,
+          "time_slot": {
+            "start": "2026-08-15T13:00:00",
+            "end": "2026-08-15T19:03:13.548237"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    },
+    {
+      "id": 80,
+      "name": "Bailey Collins",
+      "skills": [
+        "Colorist",
+        "Audio Engineer"
+      ],
+      "regular_hours_worked": 9.242676524444445,
+      "overtime_hours_worked": 4.398534184444445,
+      "assignments": [
+        {
+          "employee_id": 80,
+          "project_id": 22,
+          "time_slot": {
+            "start": "2026-09-29T14:00:00",
+            "end": "2026-09-29T19:34:21.770079"
+          }
+        },
+        {
+          "employee_id": 80,
+          "project_id": 38,
+          "time_slot": {
+            "start": "2026-10-12T18:00:00",
+            "end": "2026-10-12T21:26:30.997020"
+          }
+        },
+        {
+          "employee_id": 80,
+          "project_id": 49,
+          "time_slot": {
+            "start": "2026-10-04T13:00:00",
+            "end": "2026-10-04T17:37:35.591453"
+          }
+        }
+      ],
+      "unavailable_slots": []
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Special Award Ceremony #1",
+      "time_slot": {
+        "start": "2026-06-01T09:00:00",
+        "end": "2026-06-01T16:48:44.122283"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Producer",
+        "Graphics Designer",
+        "Editor",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        20,
+        6,
+        28,
+        19
+      ],
+      "status": "Pending",
+      "priority": 1,
+      "is_fixed": true
+    },
+    {
+      "id": 2,
+      "name": "Premier Talk Show #2",
+      "time_slot": {
+        "start": "2026-09-18T07:00:00",
+        "end": "2026-09-18T14:06:28.998979"
+      },
+      "required_skills": [
+        "Producer",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Colorist",
+        "Editor"
+      ],
+      "assigned_employees": [
+        41,
+        50,
+        33,
+        11,
+        37
+      ],
+      "status": "Scheduled",
+      "priority": 2,
+      "is_fixed": false
+    },
+    {
+      "id": 3,
+      "name": "Live Reality Show #3",
+      "time_slot": {
+        "start": "2026-11-01T06:00:00",
+        "end": "2026-11-01T11:42:58.640623"
+      },
+      "required_skills": [
+        "Colorist",
+        "Graphics Designer",
+        "Editor",
+        "Producer",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        72,
+        8,
+        52
+      ],
+      "status": "Pending",
+      "priority": 4,
+      "is_fixed": true
+    },
+    {
+      "id": 4,
+      "name": "Breaking Award Ceremony #4",
+      "time_slot": {
+        "start": "2026-11-27T10:00:00",
+        "end": "2026-11-27T14:44:36.050768"
+      },
+      "required_skills": [
+        "Producer",
+        "Audio Engineer",
+        "Editor",
+        "Colorist",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        36,
+        50,
+        16,
+        9,
+        13
+      ],
+      "status": "Scheduled",
+      "priority": 9,
+      "is_fixed": true
+    },
+    {
+      "id": 5,
+      "name": "Grand Documentary #5",
+      "time_slot": {
+        "start": "2026-06-28T20:00:00",
+        "end": "2026-06-28T22:24:45.892384"
+      },
+      "required_skills": [
+        "Editor",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Producer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        27,
+        22,
+        38,
+        74
+      ],
+      "status": "Pending",
+      "priority": 9,
+      "is_fixed": true
+    },
+    {
+      "id": 6,
+      "name": "Breaking Live Sports #6",
+      "time_slot": {
+        "start": "2026-10-11T10:00:00",
+        "end": "2026-10-11T17:35:25.930452"
+      },
+      "required_skills": [
+        "Producer",
+        "Editor",
+        "Colorist",
+        "Audio Engineer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        6,
+        47,
+        29,
+        30
+      ],
+      "status": "Pending",
+      "priority": 9,
+      "is_fixed": true
+    },
+    {
+      "id": 7,
+      "name": "Live Special Event #7",
+      "time_slot": {
+        "start": "2026-04-18T17:00:00",
+        "end": "2026-04-18T21:03:26.214216"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Colorist",
+        "Editor",
+        "Producer",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        43,
+        42,
+        46,
+        38
+      ],
+      "status": "Pending",
+      "priority": 7,
+      "is_fixed": true
+    },
+    {
+      "id": 8,
+      "name": "Premier News Broadcast #8",
+      "time_slot": {
+        "start": "2026-06-20T18:00:00",
+        "end": "2026-06-20T20:47:05.704671"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Editor",
+        "Audio Engineer",
+        "Colorist",
+        "Producer"
+      ],
+      "assigned_employees": [
+        18,
+        73,
+        52,
+        39,
+        66
+      ],
+      "status": "Scheduled",
+      "priority": 9,
+      "is_fixed": true
+    },
+    {
+      "id": 9,
+      "name": "Featured Entertainment Show #9",
+      "time_slot": {
+        "start": "2026-03-18T14:00:00",
+        "end": "2026-03-18T16:12:58.207782"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Editor",
+        "Colorist",
+        "Producer",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        68,
+        57,
+        49,
+        71,
+        50
+      ],
+      "status": "Scheduled",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 10,
+      "name": "Weekly News Broadcast #10",
+      "time_slot": {
+        "start": "2026-04-18T16:00:00",
+        "end": "2026-04-18T19:29:49.842367"
+      },
+      "required_skills": [
+        "Producer",
+        "Graphics Designer",
+        "Colorist",
+        "Editor",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        66,
+        28,
+        39,
+        27,
+        60
+      ],
+      "status": "Scheduled",
+      "priority": 4,
+      "is_fixed": true
+    },
+    {
+      "id": 11,
+      "name": "Daily Talk Show #11",
+      "time_slot": {
+        "start": "2026-01-13T08:00:00",
+        "end": "2026-01-13T14:25:09.792590"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Colorist",
+        "Audio Engineer",
+        "Producer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        68,
+        4,
+        55,
+        36,
+        57
+      ],
+      "status": "Scheduled",
+      "priority": 3,
+      "is_fixed": true
+    },
+    {
+      "id": 12,
+      "name": "Daily Concert #12",
+      "time_slot": {
+        "start": "2026-01-20T19:00:00",
+        "end": "2026-01-20T23:49:26.904455"
+      },
+      "required_skills": [
+        "Editor",
+        "Colorist",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        22,
+        54,
+        40,
+        61
+      ],
+      "status": "Pending",
+      "priority": 4,
+      "is_fixed": true
+    },
+    {
+      "id": 13,
+      "name": "Daily Game Show #13",
+      "time_slot": {
+        "start": "2026-06-18T10:00:00",
+        "end": "2026-06-18T17:11:10.023548"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Audio Engineer",
+        "Colorist",
+        "Editor",
+        "Producer"
+      ],
+      "assigned_employees": [
+        53,
+        60,
+        29,
+        12
+      ],
+      "status": "Pending",
+      "priority": 1,
+      "is_fixed": true
+    },
+    {
+      "id": 14,
+      "name": "Grand Documentary #14",
+      "time_slot": {
+        "start": "2026-10-25T10:00:00",
+        "end": "2026-10-25T12:13:46.355463"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Colorist",
+        "Editor",
+        "Graphics Designer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        45,
+        64,
+        2,
+        48
+      ],
+      "status": "Pending",
+      "priority": 10,
+      "is_fixed": false
+    },
+    {
+      "id": 15,
+      "name": "Daily Concert #15",
+      "time_slot": {
+        "start": "2026-10-23T09:00:00",
+        "end": "2026-10-23T12:31:42.006133"
+      },
+      "required_skills": [
+        "Colorist",
+        "Producer",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        64,
+        27,
+        22,
+        52
+      ],
+      "status": "Pending",
+      "priority": 7,
+      "is_fixed": true
+    },
+    {
+      "id": 16,
+      "name": "Live Press Conference #16",
+      "time_slot": {
+        "start": "2026-06-10T16:00:00",
+        "end": "2026-06-10T23:05:17.130037"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Audio Engineer",
+        "Colorist",
+        "Editor",
+        "Producer"
+      ],
+      "assigned_employees": [
+        53,
+        25,
+        19,
+        37,
+        11
+      ],
+      "status": "Scheduled",
+      "priority": 7,
+      "is_fixed": true
+    },
+    {
+      "id": 17,
+      "name": "Special Award Ceremony #17",
+      "time_slot": {
+        "start": "2026-08-04T16:00:00",
+        "end": "2026-08-04T23:38:31.855288"
+      },
+      "required_skills": [
+        "Editor",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Producer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        32,
+        43,
+        75
+      ],
+      "status": "Pending",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 18,
+      "name": "Prime Press Conference #18",
+      "time_slot": {
+        "start": "2026-08-15T13:00:00",
+        "end": "2026-08-15T19:03:13.548237"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Colorist",
+        "Graphics Designer",
+        "Producer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        79,
+        13,
+        31,
+        76
+      ],
+      "status": "Pending",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 19,
+      "name": "Elite Press Conference #19",
+      "time_slot": {
+        "start": "2026-05-01T16:00:00",
+        "end": "2026-05-01T19:51:45.060429"
+      },
+      "required_skills": [
+        "Editor",
+        "Audio Engineer",
+        "Producer",
+        "Graphics Designer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        34,
+        5,
+        28
+      ],
+      "status": "Pending",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 20,
+      "name": "Prime Entertainment Show #20",
+      "time_slot": {
+        "start": "2026-08-01T20:00:00",
+        "end": "2026-08-02T01:46:42.932224"
+      },
+      "required_skills": [
+        "Editor",
+        "Colorist",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        77,
+        49,
+        18,
+        21
+      ],
+      "status": "Pending",
+      "priority": 3,
+      "is_fixed": true
+    },
+    {
+      "id": 21,
+      "name": "Elite Live Sports #21",
+      "time_slot": {
+        "start": "2026-08-06T09:00:00",
+        "end": "2026-08-06T12:03:19.152325"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Colorist",
+        "Producer",
+        "Graphics Designer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        35,
+        44,
+        8
+      ],
+      "status": "Pending",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 22,
+      "name": "Breaking Corporate Event #22",
+      "time_slot": {
+        "start": "2026-09-29T14:00:00",
+        "end": "2026-09-29T19:34:21.770079"
+      },
+      "required_skills": [
+        "Colorist",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Editor",
+        "Producer"
+      ],
+      "assigned_employees": [
+        80,
+        61,
+        76
+      ],
+      "status": "Pending",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 23,
+      "name": "Breaking Reality Show #23",
+      "time_slot": {
+        "start": "2026-05-22T18:00:00",
+        "end": "2026-05-23T00:39:57.776443"
+      },
+      "required_skills": [
+        "Colorist",
+        "Editor",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        9,
+        16,
+        23
+      ],
+      "status": "Pending",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 24,
+      "name": "Weekly Press Conference #24",
+      "time_slot": {
+        "start": "2026-10-04T07:00:00",
+        "end": "2026-10-04T09:49:48.879729"
+      },
+      "required_skills": [
+        "Editor",
+        "Colorist",
+        "Graphics Designer",
+        "Producer",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        47,
+        14,
+        10,
+        26
+      ],
+      "status": "Pending",
+      "priority": 2,
+      "is_fixed": true
+    },
+    {
+      "id": 25,
+      "name": "Exclusive Press Conference #25",
+      "time_slot": {
+        "start": "2026-08-27T12:00:00",
+        "end": "2026-08-27T14:22:24.939349"
+      },
+      "required_skills": [
+        "Colorist",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Producer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        4,
+        25,
+        53,
+        21,
+        67
+      ],
+      "status": "Scheduled",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 26,
+      "name": "Annual Panel Discussion #26",
+      "time_slot": {
+        "start": "2026-07-19T19:00:00",
+        "end": "2026-07-20T02:20:59.457307"
+      },
+      "required_skills": [
+        "Colorist",
+        "Editor",
+        "Audio Engineer",
+        "Producer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        59,
+        67,
+        45,
+        2,
+        48
+      ],
+      "status": "Scheduled",
+      "priority": 7,
+      "is_fixed": true
+    },
+    {
+      "id": 27,
+      "name": "Weekly Webinar #27",
+      "time_slot": {
+        "start": "2026-12-09T16:00:00",
+        "end": "2026-12-09T22:47:19.874207"
+      },
+      "required_skills": [
+        "Editor",
+        "Colorist",
+        "Producer",
+        "Graphics Designer",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        77,
+        14,
+        41,
+        63
+      ],
+      "status": "Pending",
+      "priority": 10,
+      "is_fixed": true
+    },
+    {
+      "id": 28,
+      "name": "Elite Live Sports #28",
+      "time_slot": {
+        "start": "2026-11-26T12:00:00",
+        "end": "2026-11-26T14:48:51.108924"
+      },
+      "required_skills": [
+        "Colorist",
+        "Editor",
+        "Producer",
+        "Audio Engineer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        39,
+        20,
+        8
+      ],
+      "status": "Pending",
+      "priority": 6,
+      "is_fixed": true
+    },
+    {
+      "id": 29,
+      "name": "Weekly Press Conference #29",
+      "time_slot": {
+        "start": "2026-07-14T10:00:00",
+        "end": "2026-07-14T16:30:43.412189"
+      },
+      "required_skills": [
+        "Colorist",
+        "Graphics Designer",
+        "Producer",
+        "Editor",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        69,
+        3,
+        1,
+        62
+      ],
+      "status": "Pending",
+      "priority": 9,
+      "is_fixed": true
+    },
+    {
+      "id": 30,
+      "name": "Special Panel Discussion #30",
+      "time_slot": {
+        "start": "2026-11-29T07:00:00",
+        "end": "2026-11-29T13:41:14.633872"
+      },
+      "required_skills": [
+        "Producer",
+        "Audio Engineer",
+        "Colorist",
+        "Graphics Designer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        51,
+        55,
+        12
+      ],
+      "status": "Pending",
+      "priority": 10,
+      "is_fixed": true
+    },
+    {
+      "id": 31,
+      "name": "Prime Award Ceremony #31",
+      "time_slot": {
+        "start": "2026-12-09T07:00:00",
+        "end": "2026-12-09T12:23:01.742970"
+      },
+      "required_skills": [
+        "Editor",
+        "Colorist",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        44,
+        69,
+        58,
+        1
+      ],
+      "status": "Pending",
+      "priority": 3,
+      "is_fixed": true
+    },
+    {
+      "id": 32,
+      "name": "Grand Concert #32",
+      "time_slot": {
+        "start": "2026-06-09T07:00:00",
+        "end": "2026-06-09T12:28:19.590222"
+      },
+      "required_skills": [
+        "Graphics Designer",
+        "Colorist",
+        "Editor",
+        "Producer",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        10,
+        79,
+        7,
+        60
+      ],
+      "status": "Pending",
+      "priority": 10,
+      "is_fixed": true
+    },
+    {
+      "id": 33,
+      "name": "Elite Reality Show #33",
+      "time_slot": {
+        "start": "2026-12-23T18:00:00",
+        "end": "2026-12-23T21:48:34.186007"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Producer",
+        "Graphics Designer",
+        "Colorist",
+        "Editor"
+      ],
+      "assigned_employees": [
+        70,
+        56,
+        68,
+        24,
+        20
+      ],
+      "status": "Scheduled",
+      "priority": 9,
+      "is_fixed": true
+    },
+    {
+      "id": 34,
+      "name": "Elite Panel Discussion #34",
+      "time_slot": {
+        "start": "2026-09-17T16:00:00",
+        "end": "2026-09-17T20:02:50.593377"
+      },
+      "required_skills": [
+        "Colorist",
+        "Audio Engineer",
+        "Producer",
+        "Editor",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        49,
+        40,
+        71,
+        57,
+        78
+      ],
+      "status": "Scheduled",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 35,
+      "name": "Grand Product Launch #35",
+      "time_slot": {
+        "start": "2026-09-25T16:00:00",
+        "end": "2026-09-25T19:37:13.779762"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Colorist",
+        "Editor",
+        "Graphics Designer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        70,
+        4,
+        44,
+        18,
+        21
+      ],
+      "status": "Scheduled",
+      "priority": 6,
+      "is_fixed": true
+    },
+    {
+      "id": 36,
+      "name": "Annual Entertainment Show #36",
+      "time_slot": {
+        "start": "2026-08-19T09:00:00",
+        "end": "2026-08-19T15:30:10.287687"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Colorist",
+        "Editor",
+        "Producer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        35,
+        74,
+        73
+      ],
+      "status": "Pending",
+      "priority": 6,
+      "is_fixed": true
+    },
+    {
+      "id": 37,
+      "name": "Weekly Game Show #37",
+      "time_slot": {
+        "start": "2026-05-13T11:00:00",
+        "end": "2026-05-13T14:40:40.623342"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Graphics Designer",
+        "Colorist",
+        "Producer",
+        "Editor"
+      ],
+      "assigned_employees": [
+        65,
+        63,
+        17
+      ],
+      "status": "Pending",
+      "priority": 2,
+      "is_fixed": true
+    },
+    {
+      "id": 38,
+      "name": "Prime Product Launch #38",
+      "time_slot": {
+        "start": "2026-10-12T18:00:00",
+        "end": "2026-10-12T21:26:30.997020"
+      },
+      "required_skills": [
+        "Colorist",
+        "Audio Engineer",
+        "Editor",
+        "Producer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        80,
+        10,
+        7,
+        46
+      ],
+      "status": "Pending",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 39,
+      "name": "Annual Reality Show #39",
+      "time_slot": {
+        "start": "2026-12-06T15:00:00",
+        "end": "2026-12-06T19:12:50.841734"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Graphics Designer",
+        "Editor",
+        "Colorist",
+        "Producer"
+      ],
+      "assigned_employees": [
+        65,
+        33,
+        72,
+        31
+      ],
+      "status": "Pending",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 40,
+      "name": "Special Documentary #40",
+      "time_slot": {
+        "start": "2026-03-03T17:00:00",
+        "end": "2026-03-03T20:09:19.820739"
+      },
+      "required_skills": [
+        "Producer",
+        "Editor",
+        "Audio Engineer",
+        "Graphics Designer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        56,
+        42,
+        65,
+        33
+      ],
+      "status": "Pending",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 41,
+      "name": "Elite Special Event #41",
+      "time_slot": {
+        "start": "2026-04-10T10:00:00",
+        "end": "2026-04-10T13:21:53.636331"
+      },
+      "required_skills": [
+        "Editor",
+        "Graphics Designer",
+        "Producer",
+        "Colorist",
+        "Audio Engineer"
+      ],
+      "assigned_employees": [
+        7,
+        73,
+        56,
+        59,
+        30
+      ],
+      "status": "Scheduled",
+      "priority": 1,
+      "is_fixed": false
+    },
+    {
+      "id": 42,
+      "name": "Featured Special Event #42",
+      "time_slot": {
+        "start": "2026-03-06T16:00:00",
+        "end": "2026-03-06T23:12:38.761861"
+      },
+      "required_skills": [
+        "Colorist",
+        "Producer",
+        "Audio Engineer",
+        "Editor",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        17,
+        26,
+        15,
+        58
+      ],
+      "status": "Pending",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 43,
+      "name": "Premier Talk Show #43",
+      "time_slot": {
+        "start": "2026-05-10T19:00:00",
+        "end": "2026-05-10T23:51:58.950445"
+      },
+      "required_skills": [
+        "Producer",
+        "Colorist",
+        "Editor",
+        "Audio Engineer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        71,
+        24,
+        62,
+        38
+      ],
+      "status": "Pending",
+      "priority": 3,
+      "is_fixed": true
+    },
+    {
+      "id": 44,
+      "name": "Elite Special Event #44",
+      "time_slot": {
+        "start": "2026-05-08T07:00:00",
+        "end": "2026-05-08T12:20:54.377548"
+      },
+      "required_skills": [
+        "Colorist",
+        "Editor",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        54,
+        32,
+        23,
+        75
+      ],
+      "status": "Pending",
+      "priority": 8,
+      "is_fixed": true
+    },
+    {
+      "id": 45,
+      "name": "Annual Product Launch #45",
+      "time_slot": {
+        "start": "2026-10-19T15:00:00",
+        "end": "2026-10-19T17:21:40.974574"
+      },
+      "required_skills": [
+        "Producer",
+        "Editor",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        46,
+        74,
+        3,
+        70
+      ],
+      "status": "Pending",
+      "priority": 2,
+      "is_fixed": true
+    },
+    {
+      "id": 46,
+      "name": "Exclusive Talk Show #46",
+      "time_slot": {
+        "start": "2026-02-08T08:00:00",
+        "end": "2026-02-08T10:00:57.795608"
+      },
+      "required_skills": [
+        "Colorist",
+        "Audio Engineer",
+        "Editor",
+        "Producer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        24,
+        40,
+        72,
+        66,
+        28
+      ],
+      "status": "Scheduled",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 47,
+      "name": "Elite Corporate Event #47",
+      "time_slot": {
+        "start": "2026-12-18T09:00:00",
+        "end": "2026-12-18T16:32:36.478561"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Editor",
+        "Colorist",
+        "Producer",
+        "Graphics Designer"
+      ],
+      "assigned_employees": [
+        15,
+        42,
+        51
+      ],
+      "status": "Pending",
+      "priority": 3,
+      "is_fixed": false
+    },
+    {
+      "id": 48,
+      "name": "Elite Award Ceremony #48",
+      "time_slot": {
+        "start": "2026-01-31T08:00:00",
+        "end": "2026-01-31T14:45:20.777031"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Graphics Designer",
+        "Editor",
+        "Producer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        5,
+        78,
+        34
+      ],
+      "status": "Pending",
+      "priority": 5,
+      "is_fixed": true
+    },
+    {
+      "id": 49,
+      "name": "Exclusive Documentary #49",
+      "time_slot": {
+        "start": "2026-10-04T13:00:00",
+        "end": "2026-10-04T17:37:35.591453"
+      },
+      "required_skills": [
+        "Audio Engineer",
+        "Producer",
+        "Editor",
+        "Graphics Designer",
+        "Colorist"
+      ],
+      "assigned_employees": [
+        80,
+        66,
+        27,
+        48
+      ],
+      "status": "Pending",
+      "priority": 1,
+      "is_fixed": true
+    },
+    {
+      "id": 50,
+      "name": "Breaking Live Sports #50",
+      "time_slot": {
+        "start": "2026-05-18T15:00:00",
+        "end": "2026-05-18T17:14:29.004140"
+      },
+      "required_skills": [
+        "Editor",
+        "Colorist",
+        "Graphics Designer",
+        "Audio Engineer",
+        "Producer"
+      ],
+      "assigned_employees": [
+        12,
+        64,
+        3,
+        20
+      ],
+      "status": "Pending",
+      "priority": 3,
+      "is_fixed": false
+    }
+  ]
+}

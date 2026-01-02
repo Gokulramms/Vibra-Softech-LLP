@@ -1,0 +1,200 @@
+{
+  "success": false,
+  "scheduled_projects": 14,
+  "failed_projects": [
+    {
+      "id": 32,
+      "name": "Grand Concert #32",
+      "missing_skills": []
+    },
+    {
+      "id": 14,
+      "name": "Grand Documentary #14",
+      "missing_skills": []
+    },
+    {
+      "id": 30,
+      "name": "Special Panel Discussion #30",
+      "missing_skills": []
+    },
+    {
+      "id": 27,
+      "name": "Weekly Webinar #27",
+      "missing_skills": []
+    },
+    {
+      "id": 5,
+      "name": "Grand Documentary #5",
+      "missing_skills": []
+    },
+    {
+      "id": 29,
+      "name": "Weekly Press Conference #29",
+      "missing_skills": []
+    },
+    {
+      "id": 6,
+      "name": "Breaking Live Sports #6",
+      "missing_skills": []
+    },
+    {
+      "id": 42,
+      "name": "Featured Special Event #42",
+      "missing_skills": []
+    },
+    {
+      "id": 19,
+      "name": "Elite Press Conference #19",
+      "missing_skills": []
+    },
+    {
+      "id": 44,
+      "name": "Elite Special Event #44",
+      "missing_skills": []
+    },
+    {
+      "id": 21,
+      "name": "Elite Live Sports #21",
+      "missing_skills": []
+    },
+    {
+      "id": 22,
+      "name": "Breaking Corporate Event #22",
+      "missing_skills": []
+    },
+    {
+      "id": 39,
+      "name": "Annual Reality Show #39",
+      "missing_skills": []
+    },
+    {
+      "id": 7,
+      "name": "Live Special Event #7",
+      "missing_skills": []
+    },
+    {
+      "id": 15,
+      "name": "Daily Concert #15",
+      "missing_skills": []
+    },
+    {
+      "id": 36,
+      "name": "Annual Entertainment Show #36",
+      "missing_skills": []
+    },
+    {
+      "id": 28,
+      "name": "Elite Live Sports #28",
+      "missing_skills": []
+    },
+    {
+      "id": 48,
+      "name": "Elite Award Ceremony #48",
+      "missing_skills": []
+    },
+    {
+      "id": 40,
+      "name": "Special Documentary #40",
+      "missing_skills": []
+    },
+    {
+      "id": 23,
+      "name": "Breaking Reality Show #23",
+      "missing_skills": []
+    },
+    {
+      "id": 17,
+      "name": "Special Award Ceremony #17",
+      "missing_skills": []
+    },
+    {
+      "id": 18,
+      "name": "Prime Press Conference #18",
+      "missing_skills": []
+    },
+    {
+      "id": 38,
+      "name": "Prime Product Launch #38",
+      "missing_skills": []
+    },
+    {
+      "id": 12,
+      "name": "Daily Concert #12",
+      "missing_skills": []
+    },
+    {
+      "id": 3,
+      "name": "Live Reality Show #3",
+      "missing_skills": []
+    },
+    {
+      "id": 43,
+      "name": "Premier Talk Show #43",
+      "missing_skills": []
+    },
+    {
+      "id": 50,
+      "name": "Breaking Live Sports #50",
+      "missing_skills": []
+    },
+    {
+      "id": 20,
+      "name": "Prime Entertainment Show #20",
+      "missing_skills": []
+    },
+    {
+      "id": 31,
+      "name": "Prime Award Ceremony #31",
+      "missing_skills": []
+    },
+    {
+      "id": 47,
+      "name": "Elite Corporate Event #47",
+      "missing_skills": []
+    },
+    {
+      "id": 37,
+      "name": "Weekly Game Show #37",
+      "missing_skills": []
+    },
+    {
+      "id": 24,
+      "name": "Weekly Press Conference #24",
+      "missing_skills": []
+    },
+    {
+      "id": 45,
+      "name": "Annual Product Launch #45",
+      "missing_skills": []
+    },
+    {
+      "id": 1,
+      "name": "Special Award Ceremony #1",
+      "missing_skills": []
+    },
+    {
+      "id": 13,
+      "name": "Daily Game Show #13",
+      "missing_skills": []
+    },
+    {
+      "id": 49,
+      "name": "Exclusive Documentary #49",
+      "missing_skills": []
+    }
+  ],
+  "warnings": [
+    "36 projects could not be fully staffed"
+  ],
+  "statistics": {
+    "total_employees": 80,
+    "total_projects": 50,
+    "fully_staffed_projects": 14,
+    "total_cost": 1112.958580311611,
+    "total_regular_hours": 473.50443582083335,
+    "total_overtime_hours": 491.88780345444445,
+    "employees_with_overtime": 76,
+    "average_utilization": 12.067402990940973,
+    "utilization_std_dev": 1.9494627582781938
+  }
+}
